@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Untitled Book</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1f1a14;
+    --ink-soft:#4a4034;
+    --parchment:#f3ead7;
+    --parchment-deep:#e7d8ba;
+    --gold:#9a6a2f;
+    --gold-bright:#c08f3e;
+    --rule:#cdb98f;
+    --shadow:rgba(31,26,20,.28);
+    --fs:1;
+    --page-w:min(1140px, 92vw);
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    margin:0;
+    font-family:"EB Garamond",Georgia,serif;
+    color:var(--ink);
+    background:radial-gradient(120% 90% at 50% 0%, #2c2620 0%, #1b1712 60%, #120f0b 100%);
+    height:100vh;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:20px 16px;
+    -webkit-font-smoothing:antialiased;
+    overflow:hidden;
+  }
+  .reader{width:var(--page-w);height:100%;display:flex;flex-direction:column;gap:12px;align-items:stretch;}
+
+  .toolbar,.pager{flex:0 0 auto;}
+
+  .toolbar{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    color:var(--parchment);font-family:"Cinzel",serif;font-size:13px;letter-spacing:.08em;
+  }
+  .toolbar .brand{text-transform:uppercase;opacity:.85;}
+  .controls{display:flex;align-items:center;gap:8px;}
+  .controls button{
+    font-family:"Cinzel",serif;background:#2a241d;color:var(--parchment);
+    border:1px solid rgba(243,234,215,.4);border-radius:4px;padding:6px 10px;
+    cursor:pointer;font-size:12px;letter-spacing:.06em;transition:background .15s,border-color .15s;
+  }
+  .controls button:hover{background:#3a3228;border-color:var(--gold-bright);}
+  .controls button:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .controls .group{display:flex;align-items:center;gap:4px;}
+  .controls .label{opacity:.6;font-size:11px;}
+
+  /* Page fills the available height between toolbar and pager (text pages) */
+  .page{
+    position:relative;width:100%;flex:1 1 auto;min-height:0;
+    background:linear-gradient(180deg,#f6efe0 0%, #efe3cd 100%);
+    border-radius:6px;
+    box-shadow:0 24px 60px -12px var(--shadow), 0 0 0 1px rgba(31,26,20,.12);
+    overflow:hidden;display:flex;flex-direction:column;
+  }
+  /* Image page fills the SAME vertical region as a text page (so the pager is
+     always in the same place). The 3:2 image is centered within that region,
+     uncropped, with transparent letterbox space above/below as needed. */
+  .page.image-page{
+    flex:1 1 auto;
+    aspect-ratio:auto;
+    max-height:none;
+    align-self:stretch;
+    width:100%;
+    background:transparent;
+    box-shadow:none;
+    padding:0;
+    align-items:center;        /* center the image block vertically + horizontally */
+    justify-content:center;
+  }
+  .page::before{content:"";position:absolute;inset:14px;border:1px solid var(--rule);border-radius:3px;pointer-events:none;z-index:3;}
+
+  /* ============ COVER PAGE ============ */
+  .page.cover-page{
+    flex:1 1 auto;max-height:none;align-self:stretch;width:100%;
+    background:transparent;box-shadow:none;padding:0;
+    align-items:center;justify-content:center;
+  }
+  .page.cover-page::before{display:none;}
+  .cover-wrap{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:18px;max-width:100%;max-height:100%;padding:8px 8px 4px;
+    overflow:hidden;
+  }
+  .cover-figure{
+    margin:0;display:flex;max-width:100%;
+    max-height:52vh;
+  }
+  .cover-figure img{
+    width:auto;height:auto;max-width:100%;max-height:52vh;
+    border-radius:6px;
+    box-shadow:0 24px 60px -12px var(--shadow), 0 0 0 1px rgba(31,26,20,.12);
+  }
+  .cover-band{
+    text-align:center;max-width:680px;padding:0 18px;
+  }
+  .cover-title{
+    font-family:"Cinzel",serif;font-weight:600;
+    font-size:clamp(2rem,4.2vw,3rem);letter-spacing:.06em;
+    color:var(--parchment);margin:0 0 .15em;line-height:1.04;
+  }
+  .cover-author{
+    font-family:"Cormorant Garamond",serif;font-style:italic;
+    font-size:clamp(1rem,2.2vw,1.3rem);color:var(--gold-bright);
+    letter-spacing:.04em;margin-bottom:.35em;
+  }
+  .cover-tagline{
+    font-family:"Cormorant Garamond",serif;
+    font-size:clamp(1rem,2.2vw,1.3rem);color:#cbb892;
+    font-style:italic;line-height:1.35;margin:0;
+  }
+  .cover-tagline::before{content:"\201C";}
+  .cover-tagline::after{content:"\201D";}
+
+  .page.image-page::before{display:none;}
+  .page.image-page .plate{
+    position:relative;margin:0;
+    max-width:100%;max-height:100%;
+    aspect-ratio:3/2;
+    display:flex;
+  }
+  .page.image-page img{
+    width:auto;height:auto;
+    max-width:100%;max-height:100%;
+    aspect-ratio:3/2;
+    object-fit:cover;            /* image is 3:2 and box is 3:2, so no crop, no strips */
+    border-radius:6px;
+    box-shadow:0 24px 60px -12px var(--shadow), 0 0 0 1px rgba(31,26,20,.12);
+  }
+  .img-title{
+    position:absolute;left:0;right:0;bottom:0;z-index:4;
+    text-align:center;padding:28px 24px 22px;
+    color:#f6efe0;font-family:"Cormorant Garamond",serif;
+    pointer-events:none;
+  }
+  .img-title .eyebrow{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.95;text-shadow:0 1px 6px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.5);}
+  .img-title h1{margin:.1em 0 0;font-weight:600;font-size:clamp(1.6rem,3.4vw,2.6rem);line-height:1.05;text-shadow:0 2px 10px rgba(0,0,0,.75),0 0 26px rgba(0,0,0,.5);}
+
+  /* TEXT PAGE */
+  .page-inner{
+    position:relative;z-index:2;flex:1;min-height:0;
+    overflow-y:auto;overflow-x:hidden;padding:40px 48px;
+    display:flex;flex-direction:column;gap:18px;
+    scrollbar-width:thin;scrollbar-color:var(--rule) transparent;
+  }
+  .page-inner::-webkit-scrollbar{width:8px;}
+  .page-inner::-webkit-scrollbar-thumb{background:var(--rule);border-radius:4px;}
+  .chapter-eyebrow{font-family:"Cinzel",serif;font-size:calc(11px * var(--fs));letter-spacing:.22em;text-transform:uppercase;color:var(--gold);text-align:center;}
+  .chapter-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:calc(2.2rem * var(--fs));line-height:1.05;text-align:center;margin:0;color:var(--ink);}
+  .title-rule{width:120px;height:1px;margin:2px auto 6px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+  .chapter-body{font-size:calc(1.12rem * var(--fs));line-height:1.7;color:var(--ink-soft);max-width:64ch;margin:0 auto;}
+  .chapter-body > p{margin:0 0 1em;}
+  .chapter-body > p:last-child{margin-bottom:0;}
+  .chapter-body > p:first-of-type::first-letter{font-family:"Cormorant Garamond",serif;font-weight:600;float:left;font-size:3.4em;line-height:.78;padding:6px 10px 0 0;color:var(--gold);}
+  .page-inner.cont .chapter-body > p:first-of-type::first-letter{font-family:inherit;font-weight:inherit;float:none;font-size:inherit;line-height:inherit;padding:0;color:inherit;}
+
+  .img-caption{
+    position:absolute;left:0;right:0;bottom:0;z-index:5;
+    text-align:center;color:#f6efe0;font-family:"Cormorant Garamond",serif;
+    padding:26px 24px 20px;pointer-events:none;
+  }
+  .img-caption .eyebrow{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.95;text-shadow:0 1px 6px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.5);}
+  .img-caption h1{margin:.12em 0 0;font-weight:600;font-size:clamp(1.5rem,2.8vw,2.2rem);line-height:1.1;text-shadow:0 2px 10px rgba(0,0,0,.75),0 0 26px rgba(0,0,0,.5);}
+  .pager{display:flex;align-items:center;justify-content:space-between;color:var(--parchment);}
+  .nav-btn{font-family:"Cinzel",serif;background:#2a241d;color:var(--parchment);border:1px solid rgba(243,234,215,.4);border-radius:4px;padding:10px 20px;cursor:pointer;font-size:13px;letter-spacing:.08em;transition:background .15s,border-color .15s,opacity .15s;}
+  .nav-btn:hover:not(:disabled){background:#3a3228;border-color:var(--gold-bright);}
+  .nav-btn:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .nav-btn:disabled{opacity:.3;cursor:default;}
+  .page-count{font-family:"Cinzel",serif;font-size:12px;letter-spacing:.14em;opacity:.8;text-align:center;}
+  .page-count .ch{display:block;font-size:10px;opacity:.6;margin-top:2px;letter-spacing:.1em;}
+
+  .loading{color:var(--parchment);text-align:center;font-family:"Cinzel",serif;letter-spacing:.1em;opacity:.7;padding:80px 0;}
+
+  @media (max-width:640px){
+    .page{max-height:none;}
+    .page-inner{padding:26px 22px;}
+    .toolbar{flex-direction:column;align-items:flex-start;gap:8px;}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none !important;}}
+
+  .print-caption{display:none;}
+  /* ============ GUIDE OVERLAY — large-print who's-who ============ */
+  .guide-overlay{
+    position:fixed;inset:0;z-index:50;
+    background:var(--parchment, #f3ead7);
+    display:flex;flex-direction:column;
+  }
+  .guide-bar{
+    flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;
+    gap:16px;flex-wrap:wrap;
+    background:#2a241d;color:var(--parchment,#f3ead7);
+    padding:16px 22px;border-bottom:2px solid var(--gold,#c79a4b);
+  }
+  .guide-bar-title{font-family:"Cinzel",serif;font-size:22px;letter-spacing:.06em;}
+  .guide-close{
+    font-family:"Cinzel",serif;background:var(--gold,#c79a4b);color:#2a241d;
+    border:none;border-radius:6px;padding:14px 22px;cursor:pointer;
+    font-size:18px;font-weight:600;letter-spacing:.03em;
+  }
+  .guide-close:hover{filter:brightness(1.08);}
+  .guide-scroll{flex:1 1 auto;overflow-y:auto;padding:28px 22px 60px;-webkit-overflow-scrolling:touch;}
+  .guide-inner{max-width:900px;margin:0 auto;}
+  .guide-intro{
+    font-family:"Cormorant Garamond",serif;color:#3a3026;
+    font-size:1.5rem;line-height:1.5;text-align:center;
+    margin:0 auto 30px;max-width:40ch;
+  }
+  .guide-section-title{
+    font-family:"Cinzel",serif;color:#8a5a20;
+    font-size:1.5rem;letter-spacing:.05em;text-transform:uppercase;
+    border-bottom:2px solid rgba(138,90,32,.35);
+    padding-bottom:8px;margin:42px 0 22px;
+  }
+  .guide-section-title:first-child{margin-top:0;}
+  .guide-card{
+    display:flex;gap:22px;align-items:flex-start;
+    background:rgba(255,255,255,.45);
+    border:1px solid rgba(138,90,32,.25);
+    border-radius:10px;padding:18px;margin:0 0 20px;
+  }
+  .guide-card img{
+    flex:0 0 auto;width:160px;height:160px;object-fit:cover;
+    border-radius:8px;background:#ded2b8;border:1px solid rgba(138,90,32,.3);
+  }
+  .guide-card .guide-text{flex:1 1 auto;min-width:0;}
+  .guide-card .guide-name{
+    font-family:"Cormorant Garamond",serif;font-weight:600;
+    font-size:2rem;line-height:1.05;color:#2a241d;margin:0 0 2px;
+  }
+  .guide-card .guide-kind{
+    font-family:"Cinzel",serif;font-size:.95rem;letter-spacing:.08em;
+    text-transform:uppercase;color:#a9772f;margin:0 0 10px;
+  }
+  .guide-card .guide-blurb{
+    font-family:"Cormorant Garamond",serif;color:#3a3026;
+    font-size:1.45rem;line-height:1.5;margin:0;
+  }
+  .guide-card .guide-say{
+    font-family:"Cormorant Garamond",serif;color:#5a4a36;font-style:italic;
+    font-size:1.25rem;line-height:1.45;margin:10px 0 0;
+  }
+  .guide-missing{ /* shown if an image file isn't present — a graceful decorative tile */
+    flex:0 0 auto;width:160px;height:160px;
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    border-radius:8px;border:1px solid rgba(138,90,32,.3);
+    background:
+      radial-gradient(circle at 50% 38%, rgba(192,143,62,.18), transparent 60%),
+      #ded2b8;
+    color:#a8895c;font-family:"Cinzel",serif;font-size:1.6rem;
+  }
+  .guide-missing::before{ content:"\2740"; }   /* a small floral ornament */
+  @media (max-width:620px){
+    .guide-missing{width:200px;height:200px;}
+  }
+  @media (max-width:620px){
+    .guide-card{flex-direction:column;align-items:center;text-align:center;}
+    .guide-card img{width:200px;height:200px;}
+    .guide-card .guide-blurb,.guide-card .guide-say{font-size:1.35rem;}
+  }
+
+  /* ============ TABLE OF CONTENTS ============ */
+  .toc-overlay{
+    position:fixed;inset:0;z-index:50;
+    background:var(--parchment, #f3ead7);
+    display:flex;flex-direction:column;
+  }
+  .toc-inner{max-width:760px;margin:0 auto;}
+  .toc-chapter{
+    display:block;width:100%;text-align:left;cursor:pointer;
+    background:rgba(255,255,255,.45);
+    border:1px solid rgba(138,90,32,.25);
+    border-radius:10px;padding:22px 24px;margin:0 0 16px;
+    font-family:"Cinzel",serif;color:#2a241d;
+    font-size:1.6rem;letter-spacing:.04em;
+    transition:background .12s ease, border-color .12s ease;
+  }
+  .toc-chapter:hover, .toc-chapter:focus{
+    background:rgba(199,154,75,.22);
+    border-color:rgba(138,90,32,.5);outline:none;
+  }
+  .toc-chapter .toc-num{color:#8a5a20;}
+  .toc-chapter.current{
+    background:rgba(199,154,75,.32);
+    border-color:var(--gold,#c79a4b);
+  }
+  .toc-chapter.current::after{
+    content:" \2014 you are here";
+    font-size:1rem;color:#a9772f;font-family:"Cormorant Garamond",serif;font-style:italic;letter-spacing:0;
+  }
+
+  @media print{
+    @page{ margin:12mm; }
+    .print-caption{display:block;text-align:center;color:#1f1a14;font-family:"Cormorant Garamond",serif;padding:8px 0 0;}
+    .print-caption .eyebrow{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#9a6a2f;}
+    .print-caption h1{margin:.15em 0 0;font-weight:600;font-size:2rem;line-height:1.1;}
+    body{background:#fff;padding:0;display:block;}
+    .toolbar,.pager{display:none !important;}
+    .reader{display:block;width:100%;gap:0;}
+    #printWrap{display:block;}
+    /* Force every page to a simple block that breaks after — overrides the on-screen
+       flex + aspect-ratio rules that previously collapsed all but the first image page. */
+    #printWrap .page{
+      display:block !important;
+      position:relative !important;
+      flex:none !important;
+      width:100%;
+      aspect-ratio:auto !important;
+      min-height:0 !important;
+      max-height:none !important;
+      height:auto !important;
+      box-shadow:none !important;
+      border-radius:0;
+      background:none !important;
+      overflow:visible !important;
+      page-break-after:always;
+      break-after:page;
+      page-break-inside:avoid;
+      break-inside:avoid;
+    }
+    #printWrap .page:last-child{ page-break-after:auto; break-after:auto; }
+    #printWrap .page.image-page{ text-align:center; padding:0; }
+    #printWrap .page.image-page .plate{
+      display:inline-block !important;
+      position:static !important;
+      margin:0 auto;
+      max-width:100%;
+      aspect-ratio:auto !important;
+      box-shadow:none !important;
+    }
+    #printWrap .page.image-page img{
+      display:block;
+      position:static !important;
+      width:auto !important;height:auto !important;
+      max-width:100% !important;
+      max-height:235mm !important;     /* keep a full-res plate within one printed page */
+      aspect-ratio:auto !important;
+      object-fit:contain !important;
+      margin:0 auto;
+      border-radius:0;
+      box-shadow:none !important;
+    }
+    #printWrap .page::before{ display:none !important; }
+    #printWrap .page-inner{overflow:visible;height:auto;padding:0;}
+    img{page-break-inside:avoid;break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+  <div class="reader" id="reader">
+    <div class="toolbar">
+      <span class="brand" id="bookTitle">The Untitled Book</span>
+      <div class="controls">
+        <div class="group">
+          <span class="label">Text</span>
+          <button id="fontDown" aria-label="Decrease font size">A&minus;</button>
+          <button id="fontUp" aria-label="Increase font size">A&plus;</button>
+        </div>
+        <button id="tocBtn" aria-label="Open the table of contents">Contents</button>
+        <button id="guideBtn" aria-label="Open the guide to characters and places">Guide</button>
+        <button id="downloadBtn" aria-label="Download as PDF">Download PDF</button>
+      </div>
+    </div>
+    <div class="page" id="page">
+      <div class="loading" id="loading">Loading…</div>
+    </div>
+    <div class="img-caption" id="imgCaption" style="display:none"></div>
+    <div class="pager">
+      <button class="nav-btn" id="prevBtn">&larr; Previous</button>
+      <span class="page-count" id="pageCount"></span>
+      <button class="nav-btn" id="nextBtn">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- ============ GUIDE OVERLAY (spoiler-free who's-who) ============ -->
+  <div id="guideOverlay" class="guide-overlay" style="display:none" role="dialog" aria-label="Guide to characters and places">
+    <div class="guide-bar">
+      <span class="guide-bar-title" id="guideTitle">Guide</span>
+      <button id="guideClose" class="guide-close">&times;&nbsp; Close &amp; return to reading</button>
+    </div>
+    <div class="guide-scroll" id="guideScroll"><!-- populated by JS --></div>
+  </div>
+
+  <!-- ============ TABLE OF CONTENTS OVERLAY ============ -->
+  <div id="tocOverlay" class="toc-overlay" style="display:none" role="dialog" aria-label="Table of contents">
+    <div class="guide-bar">
+      <span class="guide-bar-title">Contents</span>
+      <button id="tocClose" class="guide-close">&times;&nbsp; Close &amp; return to reading</button>
+    </div>
+    <div class="guide-scroll"><div class="toc-inner" id="tocList"><!-- populated by JS --></div></div>
+  </div>
+
+<script>
+/* ============================================================
+   SERIAL READER
+   - When HOSTED on the web: loads manifest.json + chapters/*.json live.
+     Add a chapter = drop image, add chapters/chN.json, add "chN" to manifest.
+   - When opened LOCALLY (file://) the fetch is blocked by the browser,
+     so it falls back to BUNDLED_DATA below. Run build.py to refresh that.
+   ============================================================ */
+
+/* BUNDLED_DATA is filled by build.py for the standalone local file.
+   When hosted, it's ignored in favor of live files. */
+const BUNDLED_DATA = null; /* BUNDLE_PLACEHOLDER */
+
+/* GUIDE / BUNDLED_GUIDE must be declared here, before loadBook() is defined
+   and called below. loadBook() reads BUNDLED_GUIDE synchronously in the
+   offline (file://) branch; if these declarations lived further down the
+   script (as they did previously, near the Guide-overlay code), the
+   let/const temporal-dead-zone would throw "Cannot access 'BUNDLED_GUIDE'
+   before initialization" the moment the offline build.html loaded, aborting
+   loadBook() right after `book` was set but before buildSpreads()/render(0)
+   ran. That produced exactly this bug: TOC populated (it reads book.chapters
+   directly) but the page area stayed on "Loading…" forever. */
+let GUIDE = null; /* filled from guide.json (hosted) or BUNDLED_GUIDE (offline) */
+const BUNDLED_GUIDE = null; /* GUIDE_PLACEHOLDER */
+
+let book = { title:"The Untitled Book", chapters:[] };
+let spreads = [];      // flattened list: each chapter -> {image page, text page}
+let current = 0;
+
+const pageEl   = document.getElementById('page');
+const pageCount= document.getElementById('pageCount');
+const prevBtn  = document.getElementById('prevBtn');
+const nextBtn  = document.getElementById('nextBtn');
+
+async function loadBook(){
+  // STANDALONE FILE FIRST: if build.py has baked the data in, use it directly
+  // and never fetch. This makes book.html work by double-click or via any
+  // server, without depending on a fetch failing in just the right way.
+  if(BUNDLED_DATA && Array.isArray(BUNDLED_DATA.chapters) && BUNDLED_DATA.chapters.length){
+    book = BUNDLED_DATA;
+    if(BUNDLED_GUIDE){ GUIDE = BUNDLED_GUIDE; }        // offline guide (baked by build.py)
+  } else {
+    // HOSTED: load live files (manifest.json + chapters/*.json)
+    try{
+      const mani = await fetch('manifest.json',{cache:'no-store'});
+      if(!mani.ok) throw new Error('no manifest');
+      const manifest = await mani.json();
+      const chs = [];
+      for(const id of manifest.chapters){
+        const r = await fetch(`chapters/${id}.json`,{cache:'no-store'});
+        if(r.ok) chs.push(await r.json());
+      }
+      book = { title: manifest.title || book.title, chapters: chs, cover: manifest.cover || null };
+      try{                                             // guide is optional; never fatal
+        const g = await fetch('guide.json',{cache:'no-store'});
+        if(g.ok){ GUIDE = await g.json(); }
+      }catch(_){ /* no guide.json — the Guide button will simply show nothing */ }
+    }catch(e){
+      pageEl.innerHTML = `<div class="loading">To read locally, open the standalone <b>book.html</b> (built with build.py),<br>or host this folder on a web server.</div>`;
+      return;
+    }
+  }
+  if(!book.chapters || !book.chapters.length){
+    pageEl.innerHTML = `<div class="loading">No chapters found.</div>`;
+    return;
+  }
+  buildSpreads();
+  document.getElementById('bookTitle').textContent = book.title;
+  document.title = book.title;
+  render(0);
+}
+
+function chapterTextPages(c){
+  // New format: pages = [ [para,para], [para] ].  Legacy: body = [para,para] -> one page.
+  if(Array.isArray(c.pages) && c.pages.length) return c.pages;
+  if(Array.isArray(c.body) && c.body.length) return [c.body];
+  return [[]];
+}
+
+function buildSpreads(){
+  spreads = [];
+  // COVER PAGE: first spread in the flow, paged-past into Chapter 1.
+  if(book.cover){
+    spreads.push({ type:'cover', cover: book.cover });
+  }
+  book.chapters.forEach((c, ci) => {
+    if(Array.isArray(c.sequence) && c.sequence.length){
+      // MIXED SEQUENCE format: ordered list of {image:...} or {text:[...]} entries.
+      // The first image entry titles the chapter (gets the caption);
+      // any later image entry is an interior plate (no caption).
+      let firstImageSeen = false;
+      let textCount = 0;
+      const totalText = c.sequence.filter(e => e.text).length;
+      c.sequence.forEach(entry => {
+        if(entry.image !== undefined){
+          if(!entry.image){ return; }   // empty path = unfilled plate slot; skip until art is added
+          const isOpening = !firstImageSeen;
+          firstImageSeen = true;
+          spreads.push({
+            type:'image', c, ci,
+            image: entry.image,
+            caption: isOpening,          // only the opening image carries the title caption
+            interior: !isOpening
+          });
+        } else if(entry.text !== undefined){
+          const pi = textCount++;
+          spreads.push({
+            type:'text', c, ci,
+            paras: entry.text,
+            pageIndex: pi, pageTotal: totalText
+          });
+        }
+      });
+      return;
+    }
+    // LEGACY / SIMPLE format: one opening image, then text pages.
+    spreads.push({type:'image', c, ci, image:c.image, caption:true, interior:false});
+    const tp = chapterTextPages(c);
+    tp.forEach((paras, pi) => {
+      spreads.push({type:'text', c, ci, paras, pageIndex:pi, pageTotal:tp.length});
+    });
+  });
+
+  // Number every spread within its chapter (counting ALL pages, plates included).
+  // The cover (no .ci) is excluded from chapter numbering.
+  const totalsByChapter = {};
+  spreads.forEach(s => { if(s.ci!==undefined) totalsByChapter[s.ci] = (totalsByChapter[s.ci]||0) + 1; });
+  const seenByChapter = {};
+  spreads.forEach(s => {
+    if(s.ci===undefined) return;
+    seenByChapter[s.ci] = (seenByChapter[s.ci]||0) + 1;
+    s.chapterPage = seenByChapter[s.ci];
+    s.chapterTotal = totalsByChapter[s.ci];
+  });
+}
+
+function render(i){
+  if(i<0 || i>=spreads.length) return;
+  current = i;
+  const s = spreads[i];
+  const c = s.c;
+  const imgCaption = document.getElementById('imgCaption');
+  imgCaption.style.display = 'none';   // external caption retired; caption now overlays inside the page
+  if(s.type === 'cover'){
+    pageEl.className = 'page cover-page';
+    const cv = s.cover;
+    pageEl.innerHTML = `
+      <div class="cover-wrap">
+        <figure class="cover-figure">
+          <img src="${cv.image}" alt="${cv.title||book.title||'Cover'}" onerror="this.style.opacity=0">
+        </figure>
+        <div class="cover-band">
+          <h1 class="cover-title">${cv.title || book.title || ''}</h1>
+          ${cv.author ? `<div class="cover-author">${cv.author}</div>` : ''}
+          ${cv.tagline ? `<div class="cover-tagline">${cv.tagline}</div>` : ''}
+        </div>
+      </div>`;
+    pageCount.style.visibility = 'hidden';
+    prevBtn.disabled = (i===0);
+    nextBtn.disabled = (i===spreads.length-1);
+    return;
+  }
+  if(s.type === 'image'){
+    pageEl.className = 'page image-page';
+    const capHTML = s.caption
+      ? `<div class="img-caption"><div class="eyebrow">${c.eyebrow||''}</div><h1>${c.title||''}</h1></div>`
+      : '';
+    pageEl.innerHTML = `<figure class="plate"><img src="${s.image||c.image}" alt="${c.title||''}" onerror="this.style.opacity=0">${capHTML}</figure>`;
+  } else {
+    pageEl.className = 'page text-page';
+    const firstPage = s.pageIndex === 0;
+    pageEl.innerHTML = `
+      <div class="page-inner ${firstPage?'':'cont'}" tabindex="0">
+        ${firstPage ? `<div class="chapter-eyebrow">${c.eyebrow||''}</div>
+        <h1 class="chapter-title">${c.title||''}</h1>
+        <div class="title-rule"></div>` : ''}
+        <div class="chapter-body">${(s.paras||[]).map(p=>`<p>${p}</p>`).join('')}</div>
+      </div>`;
+  }
+  pageCount.style.visibility = 'visible';
+  pageCount.innerHTML = `Page ${s.chapterPage} of ${s.chapterTotal}<span class="ch">Chapter ${s.ci+1}</span>`;
+  prevBtn.disabled = (i===0);
+  nextBtn.disabled = (i===spreads.length-1);
+}
+
+function go(d){ render(current+d); }
+prevBtn.addEventListener('click',()=>go(-1));
+nextBtn.addEventListener('click',()=>go(1));
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowLeft')go(-1);
+  if(e.key==='ArrowRight')go(1);
+});
+let tx=null;
+pageEl.addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:true});
+pageEl.addEventListener('touchend',e=>{
+  if(tx===null)return;
+  const dx=e.changedTouches[0].clientX-tx;
+  if(Math.abs(dx)>60)go(dx<0?1:-1);
+  tx=null;
+});
+
+let fs=1;
+const clamp=v=>Math.max(0.75,Math.min(1.6,v));
+document.getElementById('fontUp').addEventListener('click',()=>{fs=clamp(fs+0.1);document.documentElement.style.setProperty('--fs',fs.toFixed(2));});
+document.getElementById('fontDown').addEventListener('click',()=>{fs=clamp(fs-0.1);document.documentElement.style.setProperty('--fs',fs.toFixed(2));});
+
+document.getElementById('downloadBtn').addEventListener('click',()=>{
+  const reader=document.getElementById('reader');
+  const livePage=document.getElementById('page');
+  const liveDisplay=livePage.style.display;
+  livePage.style.display='none';
+  const wrap=document.createElement('div');wrap.id='printWrap';
+  wrap.innerHTML=book.chapters.map(c=>{
+    const openingImageHTML = (img, withCaption) => withCaption ? `
+    <div class="page image-page" style="position:relative">
+      <figure class="plate"><img src="${img}" alt=""></figure>
+    </div>
+    <div class="print-caption">
+      <div class="eyebrow">${c.eyebrow||''}</div><h1>${c.title||''}</h1>
+    </div>` : `
+    <div class="page image-page" style="position:relative">
+      <figure class="plate"><img src="${img}" alt=""></figure>
+    </div>`;
+    const textPageHTML = (paras, isFirst) => `
+    <div class="page">
+      <div class="page-inner ${isFirst?'':'cont'}">
+        ${isFirst?`<div class="chapter-eyebrow">${c.eyebrow||''}</div>
+        <h1 class="chapter-title">${c.title||''}</h1>
+        <div class="title-rule"></div>`:''}
+        <div class="chapter-body">${(paras||[]).map(p=>`<p>${p}</p>`).join('')}</div>
+      </div>
+    </div>`;
+    if(Array.isArray(c.sequence) && c.sequence.length){
+      let firstImg=false, firstText=true, out='';
+      c.sequence.forEach(entry=>{
+        if(entry.image!==undefined){
+          if(!entry.image){ return; }
+          const opening=!firstImg; firstImg=true;
+          out += openingImageHTML(entry.image, opening);
+        } else if(entry.text!==undefined){
+          out += textPageHTML(entry.text, firstText); firstText=false;
+        }
+      });
+      return out;
+    }
+    const tp = chapterTextPages(c);
+    return openingImageHTML(c.image, true) + tp.map((paras,pi)=>textPageHTML(paras, pi===0)).join('');
+  }).join('');
+  reader.appendChild(wrap);
+  const cleanup=()=>{const w=document.getElementById('printWrap');if(w)w.remove();livePage.style.display=liveDisplay;window.removeEventListener('afterprint',cleanup);};
+  window.addEventListener('afterprint',cleanup);
+  window.print();
+});
+
+loadBook();
+
+/* ============ GUIDE: spoiler-free who's-who & where ============ */
+/* Images load from images/guide/ — copy the reference PNGs there (see note). */
+/* ============ GUIDE DATA ============
+   The guide content lives in guide.json (loaded at boot, like the chapters).
+   For the standalone offline build, build.py injects it into BUNDLED_GUIDE.
+   Shape of guide.json:
+     { "title": "A Guide to <World>",
+       "intro": "One-line spoiler-free note shown at the top.",
+       "sections": [ { "heading": "...", "entries": [
+          { "name": "...", "kind": "...", "img": "FILE.png", "blurb": "...", "say": "..." } ] } ] }
+   img is optional (a graceful decorative tile shows if absent/missing);
+   say is optional. Images load from images/guide/<img>. */
+
+function buildGuide(){
+  const scroll = document.getElementById('guideScroll');
+  const sections = (GUIDE && Array.isArray(GUIDE.sections)) ? GUIDE.sections : [];
+  const intro = (GUIDE && GUIDE.intro) ? GUIDE.intro : '';
+  let html = '<div class="guide-inner">';
+  if(intro){ html += `<p class="guide-intro">${intro}</p>`; }
+  sections.forEach(sec => {
+    html += `<h2 class="guide-section-title">${sec.heading}</h2>`;
+    sec.entries.forEach(e => {
+      const src = e.img_embedded ? e.img_embedded : (e.img ? `images/guide/${e.img}` : '');
+      const imgTag = src
+        ? `<img src="${src}" alt="${e.name}" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div class=\\'guide-missing\\'></div>');">`
+        : '';
+      html += `<div class="guide-card">${imgTag}<div class="guide-text">`
+            + `<p class="guide-name">${e.name}</p>`
+            + `<p class="guide-kind">${e.kind}</p>`
+            + `<p class="guide-blurb">${e.blurb}</p>`
+            + (e.say ? `<p class="guide-say">${e.say}</p>` : '')
+            + `</div></div>`;
+    });
+  });
+  html += '</div>';
+  scroll.innerHTML = html;
+}
+
+(function wireGuide(){
+  const overlay = document.getElementById('guideOverlay');
+  const openBtn = document.getElementById('guideBtn');
+  const closeBtn = document.getElementById('guideClose');
+  let built = false;
+  const open = () => {
+    if(!built){ buildGuide(); built = true; }
+    const t = document.getElementById('guideTitle');
+    if(t && GUIDE && GUIDE.title){ t.textContent = GUIDE.title; }
+    overlay.style.display = 'flex';
+    document.getElementById('guideScroll').scrollTop = 0;
+  };
+  const close = () => { overlay.style.display = 'none'; };
+  if(openBtn) openBtn.addEventListener('click', open);
+  if(closeBtn) closeBtn.addEventListener('click', close);
+  document.addEventListener('keydown', e => { if(e.key === 'Escape' && overlay.style.display !== 'none') close(); });
+})();
+
+/* ============ TABLE OF CONTENTS ============ */
+function firstSpreadIndexForChapter(ci){
+  for(let i=0;i<spreads.length;i++){ if(spreads[i].ci===ci) return i; }
+  return 0;
+}
+function buildTOC(){
+  const list = document.getElementById('tocList');
+  const currentCi = spreads.length ? spreads[current].ci : 0;
+  let html = '';
+  book.chapters.forEach((c, ci) => {
+    const label = (c.eyebrow && c.eyebrow.trim()) ? c.eyebrow : ('Chapter ' + (ci+1));
+    const isCurrent = (ci === currentCi) ? ' current' : '';
+    html += `<button class="toc-chapter${isCurrent}" data-ci="${ci}"><span class="toc-num">${label}</span></button>`;
+  });
+  list.innerHTML = html;
+  list.querySelectorAll('.toc-chapter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const ci = parseInt(btn.getAttribute('data-ci'), 10);
+      render(firstSpreadIndexForChapter(ci));
+      document.getElementById('tocOverlay').style.display = 'none';
+      window.scrollTo(0,0);
+    });
+  });
+}
+(function wireTOC(){
+  const overlay = document.getElementById('tocOverlay');
+  const openBtn = document.getElementById('tocBtn');
+  const closeBtn = document.getElementById('tocClose');
+  const open = () => { buildTOC(); overlay.style.display = 'flex'; };
+  const close = () => { overlay.style.display = 'none'; };
+  if(openBtn) openBtn.addEventListener('click', open);
+  if(closeBtn) closeBtn.addEventListener('click', close);
+  document.addEventListener('keydown', e => { if(e.key === 'Escape' && overlay.style.display !== 'none') close(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Standalone offline build output (regenerate with build.py)
+build/
+book.html
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Netlify local state (optional; remove if you want to track it)
+.netlify/

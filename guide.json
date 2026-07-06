@@ -1,0 +1,23 @@
+{
+  "title": "A Guide to the Test World",
+  "intro": "A spoiler-free reminder of who is who and where is where. This is dummy content \u2014 replace it with your own.",
+  "sections": [
+    {
+      "heading": "People",
+      "entries": [
+        { "name": "The Traveller", "kind": "a wanderer", "img": "TRAVELLER.png",
+          "blurb": "A sample character entry. 'img' is optional \u2014 since no TRAVELLER.png exists in images/guide/, a graceful decorative tile appears instead.",
+          "say": "You'll know them as: the figure with the lantern." },
+        { "name": "The Keeper", "kind": "a guardian of the road",
+          "blurb": "This entry has no 'img' field at all, which is also fine \u2014 the guide simply shows text." }
+      ]
+    },
+    {
+      "heading": "Places",
+      "entries": [
+        { "name": "The Crossing", "kind": "where the roads meet",
+          "blurb": "Sections group entries under a heading. Add as many sections and entries as you like." }
+      ]
+    }
+  ]
+}

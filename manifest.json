@@ -1,0 +1,10 @@
+{
+  "title": "The Test Story",
+  "cover": {
+    "image": "images/cover.jpg",
+    "title": "The Test Story",
+    "author": "Your Name Here",
+    "tagline": "A short dummy tale for testing the framework"
+  },
+  "chapters": [ "ch1", "ch2" ]
+}

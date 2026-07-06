@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Chapter One",
+  "title": "The Lantern",
+  "sequence": [
+    { "image": "images/ch1_plate_0_lantern.jpg", "_describe": "PLACEHOLDER PLATE (Plate 0). No image file exists yet, so the reader will simply show no image here — that's expected. Replace with a real image path once you have art. This _describe field is ignored by the reader; use it to hold the image prompt/description for your own workflow." },
+    { "text": [
+      "This is a dummy chapter used to test the framework. If you can read this in the reader, the engine is working.",
+      "Each chapter is a JSON file with a 'sequence' of entries. An entry with an 'image' shows a picture; an entry with 'text' shows one or more paragraphs. They interleave in whatever order you list them.",
+      "Try flipping to the next page, opening the Guide (top button), and opening the Table of Contents."
+    ] },
+    { "text": [
+      "This is a second text page in Chapter One. The first text page of a chapter shows the chapter title; later text pages continue without it.",
+      "When you build the standalone offline file with build.py, any missing images are skipped gracefully — the text still reads."
+    ] }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "eyebrow": "Chapter Two",
+  "title": "The Road On",
+  "sequence": [
+    { "text": [
+      "Chapter Two exists so you can test the Table of Contents and page-flipping across chapters.",
+      "Replace these two dummy chapters with your real story: one chapterN.json per chapter, listed in manifest.json's 'chapters' array in reading order."
+    ] },
+    { "image": "images/ch2_plate_0_road.jpg", "_describe": "PLACEHOLDER PLATE. No file present; shows no image, as intended. Swap in a real path when ready." },
+    { "text": [
+      "That's the whole test story. When everything here works, you're ready to build a real book on this framework.",
+      "See FRAMEWORK_GUIDE.md for how to add chapters, the cover, and the guide."
+    ] }
+  ]
+}
