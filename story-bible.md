@@ -1,0 +1,106 @@
+# Story Bible — Plot, Structure, Continuity
+
+Character identity lives in `characters.md` (authoritative). This file covers premise, tone, setting, structure, and per-chapter continuity tracking. Keep these non-overlapping.
+
+---
+
+## Premise
+
+Robin of Loxby and his crew are well-meaning, good-humored bumblers who keep succeeding against absurd odds — not through skill, but because Master Thistlewood, a wizard who owes an old debt, has been quietly steering their luck. He didn't plan to keep helping past the debt's repayment. He's stayed because their good intentions and humor won him over, and he can't quite bring himself to stop watching out for them. Pip, his assistant, is in on it too — and possibly enjoys it more than Thistlewood would like to admit.
+
+**The debt:** Thistlewood owes a gambling debt — to Robin's father. The father's motive for calling it in isn't personal gain; he wants his son kept out of jail (or worse), and knows Robin's crusading tendencies will keep landing him in danger. So the debt's actual terms are something like "keep my son alive and out of the noose," which is why Thistlewood's interventions center on Robin's crew specifically rather than being generic wizard-helps-strangers luck. This also means Thistlewood answers to Robin's father, not to Robin — the crew has no idea any of this chain exists.
+
+**Locked continuity fact:** Robin does not know Thistlewood is a wizard, and does not know Thistlewood has been using magic to help him. This is a hard lock for the current story state — don't write scenes where Robin has this knowledge or suspects it, even in passing, without the user explicitly changing this.
+
+**Thistlewood's animal familiars:** Three animals — Gideon (a goat), Grimalkin/"Grim" (a tomcat), and Barley (a dog) — belong to or have attached themselves to the gang, and Thistlewood has granted all three telepathic ability. They converse with each other and report back to him, which is how he stays informed of the gang's doings without needing to appear himself (see `characters.md` for full personalities). **Reveal-timing rule:** the animals' personalities and banter with each other are fair game to show on the page now; the fact that they report to Thistlewood is part of the wizard reveal and stays hidden from the reader until that story, same as everything else about him.
+
+## Tone
+
+Comedy-forward, evenly balanced between slapstick/physical comedy and dry wit/banter. Audience is teen-to-adult; illustrated in a graphic-novel format. Non-graphic violence — the framework's inherited norm (power through restraint/comedy, not gore) fits naturally here since the whole point is that danger keeps getting comically defused rather than landing.
+
+## Structure
+
+**Hybrid**: each released chapter is a self-contained Robin Hood caper (can be read and enjoyed on its own), but there's a slow-building thread underneath:
+- Chapter 1 plays straight — no reveal or hinting of Thistlewood's involvement; the reader experiences the crew's luck the same way Robin does. The audience is let in on Thistlewood's hand starting sometime **after** Ch1 (exact chapter/pacing TBD as we get there) — dramatic irony kicks in from that point forward.
+- Thistlewood's motivation quietly shifts across chapters from "discharging a debt" to "actually caring about these people," even though he'd deny it if asked.
+- Marian is the crew member most likely to notice *something* is off — her suspicion can be a slow-burn seed across chapters.
+- Whether the crew ever learns the truth is **currently undecided** — leave the door open in early chapters. **Exception: Robin himself is locked as not knowing** (see below); any eventual discovery among other crew members shouldn't route through Robin without the user changing that lock.
+- **Thistlewood and Pip's on-page introduction:** they appear within Story 1 ("Six Degrees of Sherwood"), likely at the convergence chapter, disguised as an ordinary old man and his grandson — the gang never learns their true identity, and nothing on the page should confirm it to the reader either at this point. Same reveal-timing rule as above applies to them appearing in disguise: showing them as characters is fine; showing/confirming their magic is not, yet.
+- **Planning flag:** the convergence chapter was going to carry (a) the full-crew convergence event, (b) the old-man/grandson introduction, and (c) the animals' debut, all at once — that's a lot for one chapter. Worth revisiting whether Part Six needs to split into two chapters (or a Part Seven gets added) once we're actually drafting that far. Not decided yet; just flagged so it doesn't get forgotten.
+
+## Antagonists
+
+**Recurring:** The Sheriff of Nottingham (see `characters.md`) — bumbling but dangerous, comic in his own right, but should occasionally come close enough to catching the crew that the stakes feel real. He has no idea the crew's luck is magical, which should feed a growing paranoia/obsession across chapters — from his side, they're simply infuriatingly fortunate. **He acts on his own authority — no Prince John or higher power is referenced above him** (locked; keep him self-contained rather than answering to a bigger villain).
+
+**Episodic:** Individual chapters can introduce local, self-contained threats (corrupt lords, bounty hunters, rival outlaws) that don't need to recur. This keeps each chapter's caper fresh without requiring every threat to route through the Sheriff.
+
+## Beneficiaries ("give to the poor")
+
+**Currently undecided/flexible** — whether the crew's stolen-goods redistribution goes to a specific recurring village/family or stays abstract/off-page can be decided per chapter as it comes up. Don't lock this in prematurely; either choice works fine on a chapter-by-chapter basis until a pattern emerges naturally. **Note:** the Hale family (Agnes & Wat — see `characters.md`), introduced in Ch1, have reference images available and could become this recurring family if a later chapter wants to bring them back — not locked, just available.
+
+## Supporting recurring cast
+
+- **Abbot Percival** — head of Brother Crumb's abbey (see `characters.md`). Recurring comedic pressure, not a threat: periodically tries to reclaim Crumb for proper monastic life. Gives Crumb an ongoing "should I go back?" tension that can surface episodically without needing to resolve.
+- **Ferret Tam** — the crew's recurring fence/black-market contact (see `characters.md`). Handles offloading stolen goods; not especially competent but it works out, consistent with the book's overall luck-driven tone.
+
+## Relationships
+
+- **Robin & his father:** Robin experiences the distance as estrangement/resentment or misunderstanding (see `characters.md`) — he doesn't know the truth (that his father arranged protection at real cost via the Thistlewood debt). This sets up a strong potential irony/reconciliation arc if the father or the debt is ever revealed to Robin. Keep this tension alive in early chapters as a quiet undercurrent (a passing bitter remark, an unopened letter) rather than a driving plot each episode.
+- **Robin & Marian:** **Currently undecided** whether there's romantic tension — don't lock this in either direction yet. Their working relationship (her competence propping up his plans, mild exasperation) is the locked baseline; romantic subtext can be introduced later without contradicting anything already established, so it's safe to leave ambiguous in early chapters.
+- **Marian & Pip:** the one confirmed private axis in the cast — Marian is the only one who knows Pip's secret (see `characters.md`). Use sparingly and deliberately.
+
+## Running Gags Log
+
+Character-specific comedic bits meant to recur and escalate across chapters (see `voice-guide.md` for the style/tone these should be written in). **Seed proposals below are drafts — confirm, cut, or add before they get baked into Ch1.** Once a gag actually appears in a drafted chapter, update its entry with where it first appeared and how it's escalated since.
+
+- **Robin's arrows** — his terrible aim keeps producing an outcome no one could have planned (hits a rope holding something, startles exactly the right animal, etc.). Could build toward the others keeping an informal, only-half-joking tally of "things Robin's aim has accidentally fixed." *(Nice bonus: this is literally Thistlewood's magic at work, so it's a gag hiding the eventual reveal in plain sight — worth not overplaying the wink before the reveal story.)*
+- **Long John Little's apologetic threats** — he's supposed to be the intimidating one, but can't help apologizing mid-threat ("Terribly sorry, but I am going to have to sit on you now"). Could escalate to him apologizing to inanimate objects/architecture he breaks by accident.
+- **Will Scarlett-Sleeves' indestructible sleeve** — his one fine garment survives every catastrophe immaculate while the rest of him (and everyone else) ends up filthy/soaked/singed. Never explained, never remarked on by him (he assumes it's just good tailoring) — could be quietly noticed by Marian as one of her "something's off" beats, or just stay a pure sight gag.
+- **Brother Crumb's inconvenient naps** — he falls asleep at dramatically inconvenient moments and is invariably safe/missed by the danger as a result; running bit could be other characters no longer being surprised, just checking if he's breathing and moving on.
+- **Marian's tally** — she keeps an informal running count of plans/schemes and their number ("this is plan number what, forty-one?"), which could pay off as a visual gag (a plate showing a tally scratched somewhere) as the number climbs across the book.
+- **The cant gag** (see `voice-guide.md`) — Robin never understands the slang; already locked as a running bit across the whole book, not just this story.
+- **The Sheriff's tell** — some small, consistent physical reaction (a specific vein, a specific noise, throwing his hat down) that fires whenever a scheme starts going wrong, so readers learn to spot it before he does.
+- **Gideon's temper flip** — level-headed right up until the instant something threatens the gang, at which point he goes from calm to bellicose with no visible transition. Could become a sight gag (people around him bracing the moment they see the trigger coming).
+- **Grimalkin's deadpan commentary** — dry, sarcastic one-liners about the gang's competence, delivered (per the reveal-timing rule) as animal-to-animal banter rather than anything the humans can hear/understand. Could escalate into a running "even the cat thinks this is a bad idea" beat that other animals react to, if not the humans.
+- **Barley's food-based overreactions** — enormous excitement over minor food-related stimuli, wildly disproportionate to the size of the treat/scrap in question.
+- **Gideon's missing laundry** — small articles of clothing left lying around camp keep vanishing, and Gideon is always the immediate, unanimous suspect — but he is never once caught in the act. No confession, no hard evidence, ever; just accusing stares and a goat who looks completely unbothered by them. Good for a slow escalation (increasingly elaborate attempts to catch him red-handed, all failing).
+
+## Open story-level questions
+- [x] Nature and origin of Thistlewood's debt — resolved above
+- [x] Overarching antagonist — resolved above (Sheriff of Nottingham recurring + episodic one-offs)
+- [x] Pacing of the "audience learns about Thistlewood" reveal — **resolved: Ch1 plays it straight.** No reveal, no hinting, in the first chapter — Robin's string of luck should read as ordinary bumbler-hero fortune to the reader, same as it does to Robin. The wizard's involvement is revealed to the audience later (pacing of that later reveal still open — decide when we get closer to it).
+- [x] Is Robin's father alive/present — **resolved: alive, but off-page/distant.** He doesn't appear in scenes; he can be referenced, send word, or act through the debt-chain (i.e. through Thistlewood) without ever showing up directly. Keeps him as a lever for later (a letter, a summons) without committing him to being a recurring on-page character yet.
+
+## Stories & Chapters
+
+Stories vary in length — some are a single chapter, others span multiple chapters (like a comic issue told in parts). The TOC now groups multi-chapter stories under a shared header (implemented in `index.html`'s `buildTOC()`), so this convention is load-bearing, not just bookkeeping:
+
+**Convention:**
+- Every chapter belonging to a multi-chapter story gets `"_story": "Story Title"` — **the exact same string**, verbatim, across every chapter in that story (the TOC groups by exact match on consecutive chapters).
+- Each chapter's own `"eyebrow"` field carries the part label within the story — e.g. `"Part One"`, `"Part Two"` — since the TOC displays each grouped chapter by its `eyebrow`.
+- Single-chapter stories can omit `_story` entirely; they render as a normal flat TOC entry (no group header), same as before.
+- `_story` is ignored everywhere else in the reader (it's not read by any rendering logic) — it exists solely to drive TOC grouping.
+
+**Example** — a 2-part story:
+```json
+// chapters/ch3.json
+{ "_story": "The Tax Collector's Gold", "eyebrow": "Part One", "title": "...", "sequence": [...] }
+// chapters/ch4.json
+{ "_story": "The Tax Collector's Gold", "eyebrow": "Part Two", "title": "...", "sequence": [...] }
+```
+This renders in the TOC as a "THE TAX COLLECTOR'S GOLD" header with two indented entries, "Part One" and "Part Two", each linking to its own chapter.
+
+## Per-story / per-chapter continuity log
+*(Fill in as stories are drafted. Group multi-chapter stories together; one-chapter stories get a single entry.)*
+
+- **Story 1: "Six Degrees of Sherwood"** (chapters: ch1 drafted, ch2–ch6 planned) — origin story, one vignette-chapter per crew member, converging at the end.
+  - **Ch1 / Part One — "Robin of Loxby":** Introduces Robin (bad archer, estranged from his father, an unopened letter under the floorboard). He botches a solo intervention in a tax seizure from Agnes & Wat Hale — his stray arrow accidentally frees the seized goods (reads as sheer luck to everyone in-story; no hint to the reader that it's magic, per the lock). Introduces Long John Little as the tax man's reluctant third guard, who ends up fleeing with Robin. First cant-gag beat lands ("bell and book" = crook). Ends with the two of them bonding as an unlikely pair, hook into Part Two.
+  - **Ch2 / Part Two — "Long John Little":** Long John's backstory via flashback — he was a blacksmith whose trade dried up because the tax burden left his neighbors too poor to pay for his work; took the guard job out of economic necessity, to support himself and his elderly mother (unnamed so far). Cant gag reused thematically ("candle wax" = tax). A search party sent after Long John catches up to them at their campfire; Robin's stray arrow (owl) and Long John's clumsy size (collapsing woodpile) accidentally rout them — first "wanted men" stakes established, and first real proof the pair works well together. Ends with them stumbling on Will Scarlett-Sleeves hanging upside down from a tree, hook into Part Three.
+  - **New elements introduced this chapter:** Long John's mother (unnamed, off-page, living in his old village) — potential future thread if his village/family ever recurs. First on-page "wanted men" stakes (the tax man's search party) — worth tracking if this escalates the crew's fugitive status going into later chapters.
+  - **Ch3 / Part Three — "Will Scarlett-Sleeves":** Will's backstory via flashback — chronic overspending on appearances (culminating in the scarlet sleeve), a bad wager that spiraled into real debt to **Ferret Tam**, who sent collectors to make an example of him (the tree). Cant gag reused ("pig in a poke" = broke), delivered by two characters at once for a small escalation. **First real appearance of the indestructible-sleeve running gag** — used as an improvised weapon, confirmed undamaged afterward, never remarked on. Ferret Tam's collectors attack; the three-person group works together for the first time (Robin's arrow/beehive, Long John as a wall, Will's sleeve) and wins. Ends finding Brother Crumb asleep through the whole thing, guarding a pie — hook into Part Four.
+  - **New elements introduced this chapter:** Ferret Tam's first appearance (as Will's creditor, not yet in his eventual fence role) — nice foreshadowing to track. Confirms the sleeve gag is now live and should recur.
+  - **Ch4 / Part Four — "Brother Crumb":** No flashback this time (present-tense only, per user request) — Crumb's backstory comes out through dialogue instead. He was the abbey's kitchener for 15 years, increasingly frustrated that Abbot Percival's caution kept charity minimal; started quietly giving away more than sanctioned, got caught, left deliberately rather than keep asking permission. Cant gag reused ("friar's hood" = good), now landing as a three-person unison instead of two. Robin quietly parallels his own father-estrangement to Crumb's Abbot conflict without elaborating (kept consistent with the lock — the wound stays an undercurrent, not resolved). Abbot Percival arrives to reclaim him; in the standoff, Robin, Long John, and Will all physically stand with Crumb without discussing it — **first moment the group visibly acts as a unit.** Percival retreats, vowing to return (keeps him recurring). Ends with Crumb's closing line asking after "a woman clever enough to keep the three of you alive" — hook into Part Five.
+  - **Note on chapter format going forward:** per user request, chapters now carry more standalone text pages between plates (confirmed via the reader's code that every sequence entry is its own page — text entries can be adjacent to each other, only images cannot). Ch4 used 12 text pages against 6 plates, roughly double earlier chapters. Apply this expanded-text approach to Part Five onward.
+  - **New elements introduced this chapter:** first explicit on-page moment of "the group as a unit" (the standoff). Abbot Percival now a confirmed recurring pressure on Crumb, not just a one-off.
+  - **New elements introduced this chapter:** Agnes Hale & Wat Hale (see `characters.md` — available as a future recurring beneficiary family, not yet locked). First appearance of the Robin's-arrows running gag (see Running Gags Log) and the cant gag.
+  - **Dangling threads:** the unopened letter from Robin's father (not yet opened on-page); Agnes/Wat's status as recurring or one-off still open.

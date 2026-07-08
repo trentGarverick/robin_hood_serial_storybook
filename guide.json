@@ -1,22 +1,74 @@
 {
-  "title": "A Guide to the Test World",
-  "intro": "A spoiler-free reminder of who is who and where is where. This is dummy content \u2014 replace it with your own.",
+  "title": "A Guide to Sherwood",
+  "intro": "A spoiler-free reminder of who's who and where's where in Robin Hood and His Merry Messes. Updated as new faces and places show up in the stories.",
   "sections": [
     {
       "heading": "People",
       "entries": [
-        { "name": "The Traveller", "kind": "a wanderer", "img": "TRAVELLER.png",
-          "blurb": "A sample character entry. 'img' is optional \u2014 since no TRAVELLER.png exists in images/guide/, a graceful decorative tile appears instead.",
-          "say": "You'll know them as: the figure with the lantern." },
-        { "name": "The Keeper", "kind": "a guardian of the road",
-          "blurb": "This entry has no 'img' field at all, which is also fine \u2014 the guide simply shows text." }
+        {
+          "name": "Robin of Loxby",
+          "kind": "an archer of middling skill",
+          "img": "../ROBIN_ref_bg_01.png",
+          "blurb": "Earnest, well-meaning, and a genuinely terrible shot with a bow — which has, so far, worked out better for him than it has any right to. Estranged from his father, though he'd rather not talk about it."
+        },
+        {
+          "name": "Long John Little",
+          "kind": "a very large, very apologetic man",
+          "img": "../LONGJOHNLITTLE_ref_bg_01.png",
+          "blurb": "Enormous, gentle, and bad at being intimidating no matter how the job description reads. Recently found himself running in the same direction as Robin, for reasons that seemed sensible at the time."
+        },
+        {
+          "name": "Will Scarlett-Sleeves",
+          "kind": "a man of considerable debt and excellent posture",
+          "img": "../WILLSCARLETT_ref_bg_01.png",
+          "blurb": "Vain, charming, and perpetually broke in a manner entirely of his own making. Owns exactly one truly fine garment, and would very much like you to notice it."
+        },
+        {
+          "name": "Brother Crumb",
+          "kind": "a friar with strong opinions on charity",
+          "img": "../BROTHERCRUMB_ref_bg_01.png",
+          "blurb": "Left his abbey over a disagreement about how generous generosity ought to be. Cooks better than anyone has a right to, and always seems to have more food on hand than the sack should allow."
+        }
       ]
     },
     {
       "heading": "Places",
       "entries": [
-        { "name": "The Crossing", "kind": "where the roads meet",
-          "blurb": "Sections group entries under a heading. Add as many sections and entries as you like." }
+        {
+          "name": "Sherwood",
+          "kind": "a forest, mostly",
+          "blurb": "Large, green, and short on both witnesses and tax collectors — two qualities Robin has come to appreciate."
+        }
+      ]
+    },
+    {
+      "heading": "Sherwood Cant",
+      "entries": [
+        {
+          "name": "What is cant?",
+          "kind": "local slang",
+          "blurb": "A rhyming turn of phrase used throughout Sherwood and Nottingham — the phrase's last word rhymes with what it actually means. Everyone seems to understand it. Everyone, notably, except Robin."
+        },
+        {
+          "name": "Bell and book",
+          "kind": "means \u201ccrook\u201d (a thief)",
+          "blurb": "On account of \u2018book\u2019 rhyming with \u2018crook.\u2019 As in: watch your purse, there's bell-and-books about."
+        },
+        {
+          "name": "Candle wax",
+          "kind": "means \u201ctax\u201d",
+          "blurb": "As in: candle wax, season on season, till there was nothing left to smith for."
+        },
+        {
+          "name": "Pig in a poke",
+          "kind": "means \u201cbroke\u201d (penniless)",
+          "blurb": "As in: thoroughly pig-in-a-poke at present, haven't a coin to my name."
+        },
+        {
+          "name": "Friar's hood",
+          "kind": "means \u201cgood\u201d",
+          "blurb": "As in: proper friar's-hood, that decision. Best I've made in years. (Yes, someone had to point out the irony to a literal friar.)"
+        }
       ]
     }
   ]

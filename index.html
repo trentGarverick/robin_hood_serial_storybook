@@ -92,10 +92,10 @@
   }
   .cover-figure{
     margin:0;display:flex;max-width:100%;
-    max-height:52vh;
+    max-height:68vh;
   }
   .cover-figure img{
-    width:auto;height:auto;max-width:100%;max-height:52vh;
+    width:auto;height:auto;max-width:100%;max-height:68vh;
     border-radius:6px;
     box-shadow:0 24px 60px -12px var(--shadow), 0 0 0 1px rgba(31,26,20,.12);
   }
@@ -227,7 +227,7 @@
     border-radius:10px;padding:18px;margin:0 0 20px;
   }
   .guide-card img{
-    flex:0 0 auto;width:160px;height:160px;object-fit:cover;
+    flex:0 0 auto;width:150px;height:225px;object-fit:cover;
     border-radius:8px;background:#ded2b8;border:1px solid rgba(138,90,32,.3);
   }
   .guide-card .guide-text{flex:1 1 auto;min-width:0;}
@@ -248,7 +248,7 @@
     font-size:1.25rem;line-height:1.45;margin:10px 0 0;
   }
   .guide-missing{ /* shown if an image file isn't present — a graceful decorative tile */
-    flex:0 0 auto;width:160px;height:160px;
+    flex:0 0 auto;width:150px;height:225px;
     display:flex;align-items:center;justify-content:center;text-align:center;
     border-radius:8px;border:1px solid rgba(138,90,32,.3);
     background:
@@ -258,11 +258,11 @@
   }
   .guide-missing::before{ content:"\2740"; }   /* a small floral ornament */
   @media (max-width:620px){
-    .guide-missing{width:200px;height:200px;}
+    .guide-missing{width:190px;height:285px;}
   }
   @media (max-width:620px){
     .guide-card{flex-direction:column;align-items:center;text-align:center;}
-    .guide-card img{width:200px;height:200px;}
+    .guide-card img{width:190px;height:285px;}
     .guide-card .guide-blurb,.guide-card .guide-say{font-size:1.35rem;}
   }
 
@@ -294,6 +294,16 @@
   .toc-chapter.current::after{
     content:" \2014 you are here";
     font-size:1rem;color:#a9772f;font-family:"Cormorant Garamond",serif;font-style:italic;letter-spacing:0;
+  }
+  .toc-group{margin:0 0 16px;}
+  .toc-group-title{
+    font-family:"Cinzel",serif;font-size:1.05rem;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--gold,#9a6a2f);margin:0 0 8px;padding:0 4px;
+  }
+  .toc-chapter.toc-part{
+    margin-left:22px;width:calc(100% - 22px);
+    padding:14px 20px;font-size:1.32rem;
+    background:rgba(255,255,255,.32);
   }
 
   @media print{
@@ -710,6 +720,12 @@ function buildGuide(){
 })();
 
 /* ============ TABLE OF CONTENTS ============ */
+/* Groups consecutive chapters sharing the same "_story" field under one
+   header (for multi-chapter stories told in parts). Convention:
+     - every chapter in a multi-chapter story gets "_story": "Exact Same Title"
+     - each chapter's own "eyebrow" field is the part label ("Part One", etc.)
+     - single-chapter stories just omit "_story" and render flat, as before.
+   "_story" is not used anywhere else in the reader. */
 function firstSpreadIndexForChapter(ci){
   for(let i=0;i<spreads.length;i++){ if(spreads[i].ci===ci) return i; }
   return 0;
@@ -717,12 +733,32 @@ function firstSpreadIndexForChapter(ci){
 function buildTOC(){
   const list = document.getElementById('tocList');
   const currentCi = spreads.length ? spreads[current].ci : 0;
+  const chapters = book.chapters;
   let html = '';
-  book.chapters.forEach((c, ci) => {
+  let i = 0;
+  const chapterButton = (c, ci, extraClass) => {
     const label = (c.eyebrow && c.eyebrow.trim()) ? c.eyebrow : ('Chapter ' + (ci+1));
     const isCurrent = (ci === currentCi) ? ' current' : '';
-    html += `<button class="toc-chapter${isCurrent}" data-ci="${ci}"><span class="toc-num">${label}</span></button>`;
-  });
+    return `<button class="toc-chapter${extraClass?(' '+extraClass):''}${isCurrent}" data-ci="${ci}"><span class="toc-num">${label}</span></button>`;
+  };
+  while(i < chapters.length){
+    const storyTitle = chapters[i]._story;
+    let j = i;
+    if(storyTitle){
+      while(j < chapters.length && chapters[j]._story === storyTitle){ j++; }
+    } else {
+      j = i + 1;
+    }
+    const group = chapters.slice(i, j);
+    if(storyTitle){
+      html += `<div class="toc-group"><div class="toc-group-title">${storyTitle}</div>`;
+      group.forEach((c, k) => { html += chapterButton(c, i+k, 'toc-part'); });
+      html += `</div>`;
+    } else {
+      html += chapterButton(chapters[i], i, '');
+    }
+    i = j;
+  }
   list.innerHTML = html;
   list.querySelectorAll('.toc-chapter').forEach(btn => {
     btn.addEventListener('click', () => {

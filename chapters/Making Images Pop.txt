@@ -1,0 +1,27 @@
+For most fantasy/cartoon AI images, try this sequence:
+
+Camera Raw Filter
+mild contrast
+recover highlights
+deepen blacks
+vibrance +10
+clarity +5
+
+Curves
+mild S-curve
+
+Nik Color Efex Pro
+Pro Contrast
+Tonal Contrast, low
+Darken/Lighten Center
+
+Photoshop lighting layer
+paint soft highlights and rim light
+
+Selective sharpening
+High Pass on important details only
+
+Final vignette
+subtle, not obvious
+
+That will usually give you a richer, more finished illustration.
