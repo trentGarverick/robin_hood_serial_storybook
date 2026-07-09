@@ -35,7 +35,7 @@
     --gold-bright:#c08f3e;
     --rule:#cdb98f;
     --shadow:rgba(31,26,20,.28);
-    --fs:1;
+    --fs:1.2;
     --page-w:min(1140px, 92vw);
   }
   *{box-sizing:border-box;}
@@ -626,7 +626,7 @@ pageEl.addEventListener('touchend',e=>{
   tx=null;
 });
 
-let fs=1;
+let fs=1.2;
 const clamp=v=>Math.max(0.75,Math.min(1.6,v));
 document.getElementById('fontUp').addEventListener('click',()=>{fs=clamp(fs+0.1);document.documentElement.style.setProperty('--fs',fs.toFixed(2));});
 document.getElementById('fontDown').addEventListener('click',()=>{fs=clamp(fs-0.1);document.documentElement.style.setProperty('--fs',fs.toFixed(2));});
