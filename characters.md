@@ -26,6 +26,7 @@ This file is the single source of truth for character identity (names, genders, 
 - **Gender:** male
 - **Role:** the friar
 - **Personality:** more devoted to pie than doctrine. Weaponizes gluttony completely by accident (eats the evidence, naps through danger and is missed by it, etc.)
+- **Backstory (confirmed on-page, Ch4):** was the abbey's kitchener for 15 years. Grew increasingly frustrated that Abbot Percival's caution kept the abbey's charity minimal despite a full larder ("believed in charity the way you believe in saving for winter"). Began quietly giving away more than sanctioned; got caught. **Left deliberately** — not expelled, not fled in disgrace — specifically so he could do the giving himself without asking permission. Genuinely skilled cook, generous to a fault, portions food evenly and never claims the largest share.
 
 ### Marian Fletcher
 - **Gender:** female
@@ -89,6 +90,7 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 - **Gender:** male
 - **Role:** head of the abbey Brother Crumb technically still belongs to — recurring, not antagonist. Periodically sends word or shows up trying to reclaim Crumb for proper monastic life.
 - **Personality:** pompous and disapproving of Crumb's outlaw life, but not evil or dangerous — a source of comedic pressure/guilt rather than threat. Genuinely believes Crumb should return; has no idea (or refuses to admit) how much more good Crumb does with the crew than he ever did at the abbey.
+- **Confirmed on-page (Ch4):** tracked Crumb down after discovering roughly a year's worth of abbey stores had been quietly redirected to poor villages. Genuinely more hurt than angry about it. Confronted the gang and, faced with all four of them standing together, conceded he "was not going to win this today" and left — vowing to return, keeping him active as a recurring pressure rather than a one-time appearance. Travels with two unnamed lay brothers when he shows up.
 
 ### Ferret Tam
 - **Gender:** male

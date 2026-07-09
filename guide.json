@@ -28,6 +28,12 @@
           "kind": "a friar with strong opinions on charity",
           "img": "../BROTHERCRUMB_ref_bg_01.png",
           "blurb": "Left his abbey over a disagreement about how generous generosity ought to be. Cooks better than anyone has a right to, and always seems to have more food on hand than the sack should allow."
+        },
+        {
+          "name": "Abbot Percival",
+          "kind": "a patient man reaching the end of his patience",
+          "img": "../ABBOTPERCIVAL_ref_bg_01.png",
+          "blurb": "Still technically Brother Crumb's superior, a fact he brings up more often than it helps. Not unkind, not a villain — just a man who preferred caution to the kind of charity his kitchener had in mind."
         }
       ]
     },
@@ -38,6 +44,11 @@
           "name": "Sherwood",
           "kind": "a forest, mostly",
           "blurb": "Large, green, and short on both witnesses and tax collectors — two qualities Robin has come to appreciate."
+        },
+        {
+          "name": "The Abbey",
+          "kind": "Brother Crumb's former posting",
+          "blurb": "A well-stocked, well-meaning, occasionally over-cautious institution. Its larder has been mysteriously generous to the surrounding villages for about a year now — the Abbot has recently worked out why."
         }
       ]
     },
