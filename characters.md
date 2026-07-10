@@ -11,6 +11,7 @@ This file is the single source of truth for character identity (names, genders, 
 - **Role:** nominal leader; archer (bad aim)
 - **Personality:** earnest, well-intentioned, always ends up holding the plan when it collapses. Genuinely brave — just also genuinely inept. Believes in the cause more than his own competence, which is somehow charming instead of tragic.
 - **Family relationship:** estranged/tense with his father, who Robin experiences as distant and resents or misunderstands. Robin has no idea his father is actually protecting him from afar (through the Thistlewood debt) — from Robin's side, it just reads as coldness or abandonment. This is a rich dramatic-irony thread: the audience (once let in on Thistlewood) will know the father's distance is really quiet devotion, while Robin doesn't.
+- **Physical continuity (Ch6):** took a serious side wound during the highwaymen raid on the Hale village, shielding Wat Hale. Deep but not fatal, tended on the spot by Thistlewood (in disguise). Worth keeping in mind for visual consistency (a scar) in any later chapter/plate depicting him shirtless or in a state of undress, and as a possible callback in dialogue.
 
 ### Long John Little
 - **Gender:** male
@@ -42,6 +43,7 @@ This file is the single source of truth for character identity (names, genders, 
 - **Gender:** male
 - **Role:** wizard, owes a gambling debt to Robin's father (see `story-bible.md` for full details)
 - **Personality:** fussy, comically pompous, keeps *meaning* to consider the debt paid and leave. Genuinely didn't expect to like these people. Begins to intervene beyond what the debt requires because their good intentions and humor have quietly won him over — this is the slow-build thread underneath the episodic stories.
+- **On-page debut (Ch6):** first physical appearance in the story, disguised as an ordinary old man traveling with his grandson. Intervened directly for the first time (rather than his usual subtle nudges) when Robin was genuinely wounded — consistent with the debt's actual terms (keep Robin alive). Fought with a plain gnarled walking staff, staged as "remarkable but explainable" (surprising skill for his apparent age), not confirmed as magic to any character or the reader. **Still unnamed to the crew** — when Agnes Hale asked who he and Pip were, Marian answered "friends" before either of them could self-identify. His and Pip's actual names haven't been given in-story yet.
 
 ### Pip
 - **Gender:** female — 19 years old, but appears notably younger
@@ -49,6 +51,7 @@ This file is the single source of truth for character identity (names, genders, 
 - **Role:** the wizard's assistant
 - **Personality:** eager, arguably more magically competent than Thistlewood himself. Enjoys watching the crew almost-fail more than she'd like Thistlewood to know. Could be the one nudging Thistlewood toward caring more than he intends to.
 - **Continuity notes:** Marian knowing Pip's secret gives the two of them a private axis — worth using sparingly but deliberately (a glance, a private aside) rather than letting it leak into dialogue where other crew members would pick up on it.
+- **On-page debut (Ch6):** first physical appearance, disguised as Thistlewood's grandson, fighting alongside him during the highwaymen raid — quick, low, effective, moved through the chaos "like she'd been doing it her whole life." Said nothing during the whole scene but watched the group (Robin especially) with quiet attentiveness. Still unnamed to the crew, same as Thistlewood.
 
 ---
 
