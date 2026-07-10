@@ -65,18 +65,15 @@ Three animals belonging to (or adopted by) the gang, each granted telepathic abi
 - **Gender:** male
 - **Personality:** normally reasonable and level-headed — the closest thing the animal trio has to a calm voice of reason — but turns cranky and bellicose the instant someone or something threatens or interferes with the gang. The shift is sudden and total, which is most of the joke.
 - **Running habit:** small articles of clothing left lying around camp have a way of vanishing, and Gideon is always the chief suspect — but he is never once caught in the act. No confession, no direct evidence, ever.
-- **On-page debut (Ch7):** confirmed live — ate four inches off the end of Will's sleeve within moments of meeting him. Also confirmed eating "something that had, until recently, belonged to somebody's laundry line" during the private animal-banter scene, reinforcing the running gag from the reader's side even though no human catches him at it.
 
 ### Grimalkin ("Grim") — the tomcat
 - **Gender:** male
 - **Personality:** aloof, cynical, sarcastic — default mode is dismissive commentary on everyone's competence, very much including the gang's. Underneath that, a staunch and fierce defender of the gang, and specifically devoted to **Marian**.
 - **Continuity notes:** Grim is, structurally, the character most likely to almost-confirm Marian's suspicions without meaning to (he knows the truth and she's the one person he's most attached to) — a good future-story seed, not something to play now. Keep his devotion to Marian visible; keep his knowledge of Thistlewood invisible.
-- **On-page debut (Ch7):** confirmed live — sought Marian out immediately and completely, "the way cats generally didn't choose anyone," per Pip's own surprised reaction. This is the beat that pushes Marian's suspicion from vague unease to something she consciously registers as a pattern.
 
 ### Barley (the dog)
 - **Gender:** male
 - **Personality:** young, excitable, food- and attention-motivated, prone to enormous overreactions to small stimuli — and, despite all of that, a genuinely fierce defender of the gang when it counts.
-- **On-page debut (Ch7):** confirmed live — ate Brother Crumb's lunch within seconds of arriving, and was forgiven almost as quickly. Established as universally well-liked among the animal trio ("everyone who has hands").
 
 **Note:** all three converse with each other (and, per the hidden mechanism, report back to Thistlewood) — but only the animal-to-animal banter is reader-visible for now. They can comment on, argue about, and generally have opinions about the gang members in front of the reader; just no on-page confirmation of who they're really working for.
 

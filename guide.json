@@ -40,6 +40,18 @@
           "kind": "the only one of them who has a plan",
           "img": "../MARIANFLETCHER_ref_bg_01.png",
           "blurb": "Runs a fletcher's shop with a sideline in quiet, deniable mercy. Sharp, exhausted, and entirely too clever to have needed rescuing by anyone."
+        },
+        {
+          "name": "Master Thistlewood",
+          "kind": "an old man of unusual competence",
+          "img": "../MASTERTHISTLEWOOD_ref_bg_01.png",
+          "blurb": "A great many books, a great many opinions, and a walking staff he uses with more skill than any old man reasonably should. Turned up at exactly the right moment once, which everyone has decided to be grateful for rather than curious about. Mostly."
+        },
+        {
+          "name": "Pip",
+          "kind": "Thistlewood's grandson",
+          "img": "../PIP_ref_bg_01.png",
+          "blurb": "Quiet, quick, and considerably more capable in a fight than a boy his age has any business being. Keeps his own counsel. Mended a ruined sleeve well enough that nobody asked too many questions about how."
         }
       ]
     },
@@ -55,6 +67,34 @@
           "name": "The Abbey",
           "kind": "Brother Crumb's former posting",
           "blurb": "A well-stocked, well-meaning, occasionally over-cautious institution. Its larder has been mysteriously generous to the surrounding villages for about a year now — the Abbot has recently worked out why."
+        },
+        {
+          "name": "Thistlewood's Cottage",
+          "kind": "cluttered, and somehow all the better for it",
+          "blurb": "Books stacked two deep, herbs drying from every beam, and an unusual amount of hospitality for two people who claim to be simply passing through."
+        }
+      ]
+    },
+    {
+      "heading": "Animals",
+      "entries": [
+        {
+          "name": "Gideon",
+          "kind": "a goat of strong opinions",
+          "img": "../GIDEON_ref_bg_01.png",
+          "blurb": "Level-headed right up until he isn't. No one has ever caught him eating the laundry directly, which everyone finds more suspicious than reassuring."
+        },
+        {
+          "name": "Grimalkin",
+          "kind": "an old tomcat who has seen enough, thank you",
+          "img": "../GRIMALKIN_ref_bg_01.png",
+          "blurb": "Aloof to nearly everyone, and inexplicably devoted to exactly one person. Marian hasn't decided yet whether that's flattering or concerning."
+        },
+        {
+          "name": "Barley",
+          "kind": "a young dog with excellent priorities",
+          "img": "../BARLEY_ref_bg_01.png",
+          "blurb": "Loves everyone who has hands, and most things that involve bread. Fiercer than he looks, when it matters."
         }
       ]
     },
@@ -90,6 +130,11 @@
           "name": "Hound's tooth",
           "kind": "means \u201ctruth\u201d",
           "blurb": "As in: a hound's-tooth's worth of resistance, and no more."
+        },
+        {
+          "name": "Beggar's cloak",
+          "kind": "means \u201cjoke\u201d",
+          "blurb": "As in: you are a beggar's-cloak of a thief, you know that? (Said with real affection, to a dog, about a stolen loaf of bread.)"
         }
       ]
     }

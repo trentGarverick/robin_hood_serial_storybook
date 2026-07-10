@@ -52,6 +52,8 @@ Invented medieval-flavored rhyming slang (in the spirit of Cockney rhyming slang
 
 **Guide convention:** `guide.json` has a "Sherwood Cant" section listing every term used so far — same rule as character entries, only add a term once the chapter using it is actually built/published, so the guide never spoils an unreleased chapter's slang.
 
+**Pip's pronouns:** narration uses "he/him/his" for Pip consistently, in narration as well as dialogue, until the actual reveal — full rule and reasoning in `characters.md`. Don't hedge with "they."
+
 **Robin's incomprehension, played out:**
 > "Steer clear of him," said Marian. "Right hog in the mire, that one."
 > Robin frowned. "There's no mire anywhere near here."
