@@ -17,11 +17,13 @@ This file is the single source of truth for character identity (names, genders, 
 - **Gender:** male
 - **Role:** the "muscle"
 - **Personality:** enormous, gentle, terrible at intimidation — apologizes mid-threat. Panics under pressure but his panic often accidentally solves the problem (knocks something over that saves the day, etc.)
+- **Backstory (confirmed on-page, Ch2):** was a blacksmith whose trade dried up because rising taxes left his neighbors too poor to pay for his work. Took the tax man's guard job purely out of economic necessity — to support himself and his elderly mother (unnamed, off-page, still living in his old village). Hated every day of it; visibly bad at the job from the start (knocked over a pottery stall on arrival, apologized to a cart mid-collapse).
 
 ### Will Scarlett-Sleeves
 - **Gender:** male
 - **Role:** the "rogue"/scout
 - **Personality:** vain about his one good outfit. Walks confidently into traps because he's busy admiring himself. Not stupid, just spectacularly distractible.
+- **Backstory (confirmed on-page, Ch3):** chronic overspender on appearances — coats, boots, and above all the scarlet sleeve — operating on the theory that looking prosperous was halfway to being prosperous. Ran out of money, doubled down at a card table with money that wasn't his, and lost badly, ending up in real debt to **Ferret Tam**. Tam's collectors made an example of him (the tree he was hanging from when Robin and Long John found him at the end of Ch2).
 
 ### Brother Crumb
 - **Gender:** male
@@ -87,6 +89,7 @@ Three animals belonging to (or adopted by) the gang, each granted telepathic abi
 - **Role:** recurring antagonist across chapters (classic title used as name — no separate first/last name)
 - **Personality:** pompous, self-styled master strategist. Genuinely devises elaborate schemes — and is comic in his own right, prone to the same kind of bumbling as the crew — but should occasionally come dangerously close to actually catching them, so the threat carries real stakes even inside the comedy. He is perpetually, furiously certain that *this time* he's finally won.
 - **Continuity notes:** He has no knowledge of Thistlewood or the crew's luck being magical — from his perspective, they're simply infuriatingly, inexplicably fortunate, which should feed his growing obsession/paranoia over multiple chapters.
+- **Referenced on-page (Ch8):** first time named on-page — an unnamed traveler reports that the Sheriff has started noticing the pattern across the crew's earlier incidents (the tax men, the highwaymen, Marian's warped arrows) and is asking questions. Still not met directly; this is a forward-looking hook for future stories, not an actual appearance yet.
 
 ### One-off episode antagonists
 Individual chapters can introduce local, self-contained threats (a corrupt local lord, a bounty hunter, a rival outlaw, etc.) that don't need to persist beyond their chapter. Add entries here only if a one-off antagonist turns out to recur or matters for continuity later.

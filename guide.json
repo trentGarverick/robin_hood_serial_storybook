@@ -52,6 +52,29 @@
           "kind": "Thistlewood's grandson",
           "img": "../PIP_ref_bg_01.png",
           "blurb": "Quiet, quick, and considerably more capable in a fight than a boy his age has any business being. Keeps his own counsel. Mended a ruined sleeve well enough that nobody asked too many questions about how."
+        },
+        {
+          "name": "Ferret Tam",
+          "kind": "a trader with flexible ethics",
+          "img": "../FERRETTAM_ref_bg_01.png",
+          "blurb": "The man Will owes money to. Not unreasonable, exactly, just very serious about invoices — and about the unusual angles a debt can be viewed from."
+        },
+        {
+          "name": "Agnes Hale",
+          "kind": "a woman who does not need rescuing, thank you",
+          "img": "../AGNESHALE_ref_bg_01.png",
+          "blurb": "Runs her household with a sharp tongue and zero patience for anyone's nonsense, including the outlaws who keep turning up to \u2018help.\u2019"
+        },
+        {
+          "name": "Wat Hale",
+          "kind": "Agnes's son, and a natural opportunist",
+          "img": "../WATHALE_ref_bg_01.png",
+          "blurb": "Nine years old and already better than most adults at spotting the exact moment to grab back what's yours."
+        },
+        {
+          "name": "The Sheriff of Nottingham",
+          "kind": "a man who has started asking questions",
+          "blurb": "Hasn't crossed paths with the crew directly yet — but a run of tax men, highwaymen, and suspiciously warped arrows has caught his attention. Word is he doesn't like coincidences."
         }
       ]
     },
@@ -72,6 +95,16 @@
           "name": "Thistlewood's Cottage",
           "kind": "cluttered, and somehow all the better for it",
           "blurb": "Books stacked two deep, herbs drying from every beam, and an unusual amount of hospitality for two people who claim to be simply passing through."
+        },
+        {
+          "name": "Nottingham",
+          "kind": "the town everyone's trying not to end up in",
+          "blurb": "Market stalls, cobbled streets, and a Sheriff who has recently developed an active interest in a certain string of coincidences."
+        },
+        {
+          "name": "The Geese Village",
+          "kind": "small, unlucky, and not actually named that",
+          "blurb": "Nobody remembers its real name anymore — not since the geese. Home to Agnes and Wat Hale, and the place where all of this, one way or another, started."
         }
       ]
     },
