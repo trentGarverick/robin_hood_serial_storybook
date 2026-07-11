@@ -74,11 +74,13 @@
         {
           "name": "Tom Weaver",
           "kind": "a weaver whose home is also his livelihood",
+          "img": "../TOMWEAVER_ref_bg_01.png",
           "blurb": "Steady, quietly proud of what he's built with his own hands — which makes the notice sitting on his table considerably harder to look at."
         },
         {
           "name": "Hob Weaver",
           "kind": "Wat's friend, and unexpectedly decisive for nine",
+          "img": "../HOBWEAVER_ref_bg_01.png",
           "blurb": "Knew exactly who to go to when his family's roof came under threat. Wasn't wrong to."
         },
         {
