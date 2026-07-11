@@ -65,6 +65,29 @@ Character-specific comedic bits meant to recur and escalate across chapters (see
 - **Barley's food-based overreactions** — *confirmed live.* Ch7 (demolishes Brother Crumb's lunch on arrival).
 - **Gideon's missing laundry** — *confirmed live.* Ch7 (eats Will's sleeve on sight; also caught mid-eating "something that had, until recently, belonged to somebody's laundry line" in the animal banter scene). Callback in Ch8's closing line (a stocking). Never caught, as designed.
 
+## Open Threads Tracker — review before each new chapter/story
+
+Consolidated list, compiled after Story 1 wrapped. Nothing here needs forcing — most are designed as slow-burns or dormant options — but check this list before starting a new chapter/story in case one naturally fits.
+
+**Slow-burn / no urgency (revisit only if a story naturally wants it):**
+- Robin's unopened letter from his father — the closed state is itself doing narrative work; no pressure to open it
+- The Abbey/Abbot Percival conflict with Brother Crumb — has a stable recurring rhythm already ("he'll be back")
+- Pip's gender & the wizard reveal — mechanism locked (unified reveal, same timing for both), only *which future story* it happens in is undecided
+- Marian's suspicion about Thistlewood — designed slow-burn, small beats only
+- Thistlewood/Pip/animals' appearance frequency in future stories — a pacing choice made story-by-story, not a decision needed now
+- Robin & Marian — explicitly locked as "leave ambiguous," don't resolve either direction without deliberate user request
+- Robin's father appearing on-page (vs. staying backstory-only) — no pressure either way
+- Ferret Tam's arc toward becoming the crew's actual fence/ally (his originally-designed role, not yet realized on-page — so far only appeared as Will's antagonistic creditor)
+- Three seeded-but-unused running gags: Marian's plan-tally, the Sheriff's physical "tell," Gideon's temper-flip — use whenever a natural moment arises
+- Long John's mother (alive, off-page, unnamed) — dormant since Ch2
+- Loxby Manor and Sheriff's Keep — both exist as designed locations in `image-bible.md`, never yet used on-page
+- Whether anyone besides Robin ever learns the truth about Thistlewood — separate question from the main reveal; Robin himself is locked as not-knowing, others' discovery stays open
+- Which of Ch8's four "purposes" (justice/profit/food/safety) future stories lean into — deliberately kept flexible, no need to commit to one
+
+**Craft default going forward (applies now, Story 2 onward):** one-off antagonists don't need clean resolutions. Default to "got away / remains unresolved" rather than a tidy ending — costs nothing, preserves every future option (recurring villain, dropped thread, callback later, whatever's wanted). Applies to Vane in the current story, and to Will's debt to Ferret Tam (still technically outstanding).
+
+**Recurring enemies beyond the Sheriff / new gang members or allies:** both genuinely open-ended — no current plans, no obligation to introduce either, just noted here as live possibilities for any future story that wants one.
+
 ## Open story-level questions
 - [x] Nature and origin of Thistlewood's debt — resolved above
 - [x] Overarching antagonist — resolved above (Sheriff of Nottingham recurring + episodic one-offs)
@@ -126,3 +149,5 @@ This renders in the TOC as a "THE TAX COLLECTOR'S GOLD" header with two indented
 - **Story 2: "The Weaver's Debt"** (chapters: ch9 drafted, more planned) — 3-part story, leaning into the **justice** pitch from Ch8's debate. The Sheriff is present/aware but does not appear face-to-face this story (still saving that confrontation for later) — instead, his punitive new taxation policy drives the plot indirectly through a one-off antagonist, **Vane**, a tax farmer who bought regional collection rights and skims extra on top.
   - **Ch9 / Part One — "A Matter of Roofs":** Opens on Tom and Hob Weaver (new characters — Hob is Wat Hale's friend, about the same age) facing eviction over a manufactured tax debt. Hob brings Wat, who brings the crew in. **Agnes/Wat Hale's recurring-beneficiary-family question is effectively resolved by this story's existence** — Wat is now an active connector bringing new cases to the crew, not just a one-off Ch1/Ch6 appearance. Group commits to helping; Marian identifies the solution (rob Vane, since profiteers keep their skimmed coin close to hand); Crumb supplies the reasoning/target logic. Ends with the plan forming and a three-day journey ahead — no heist yet, that's Part Two. No cant gag this chapter.
   - **New elements introduced:** Tom Weaver, Hob Weaver, Vane (one-off antagonist, no standing image reference needed unless he recurs per the established convention). Wat Hale's role has shifted from "recurring cameo" to "the crew's connection to the wider world" — worth keeping in mind for future stories too.
+  - **Ch10 / Part Two — "A Gentleman's Strongbox":** The heist. Opens directly mid-infiltration (no separate planning scene, per user preference), classic lucky chaos in the first half (Robin's arrow/tapestry, Long John's doorway squeeze, Will's fake wine-cellar conversation), Marian cracks the strongbox and takes **exactly** the sum owed, no more. **Complication partway through:** an unrelated manor cat knocks over a vase, Vane wakes and catches them, tone shifts sharply from comic to genuinely tense for the escape (real guards, real danger, Long John nearly left holding a doorway alone). They escape with the exact sum needed. **Vane's fate stays deliberately unresolved** per the new one-off-antagonist default — he's not caught, and the chapter ends on Robin's unease that Vane got a good look at their faces and seemed coldly patient rather than simply furious. Sets up real tension for Part Three beyond just delivering the coin in time.
+  - **New elements introduced:** Vane now physically on-page (added to guide.json with image, per the "appeared, not just named" rule). A new unresolved personal-risk thread: Vane knows their faces. No cant gag this chapter (didn't fit the tension).

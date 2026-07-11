@@ -86,7 +86,8 @@
         {
           "name": "Vane",
           "kind": "a man who bought the right to be a problem",
-          "blurb": "Purchased the tax-collection rights for a whole district, and has been finding creative new dwellings-related reasons to exercise them ever since."
+          "img": "../VANE_ref_bg_01.png",
+          "blurb": "Purchased the tax-collection rights for a whole district, and has been finding creative new dwellings-related reasons to exercise them ever since. Sleeps lighter than expected, and holds a grudge patiently."
         },
         {
           "name": "The Sheriff of Nottingham",
