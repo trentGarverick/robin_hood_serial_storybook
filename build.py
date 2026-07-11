@@ -78,6 +78,8 @@ if isinstance(manifest.get("cover"), dict) and manifest["cover"].get("image"):
     print("  - cover embedded")
 
 bundle = {"title": manifest.get("title","Untitled"), "chapters": chapters}
+if manifest.get("comingSoon"):
+    bundle["comingSoon"] = manifest["comingSoon"]
 if cover:
     bundle["cover"] = cover
 

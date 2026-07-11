@@ -89,7 +89,12 @@ Middle-aged, self-important bearing that reads as slightly too puffed-up for his
 - **Prompt (hab):** *"The same sheriff mid-tantrum in a Nottingham courtyard or hall, an elaborate scheme visibly falling apart around him, guards looking away in secondhand embarrassment. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide shot, 3:2 landscape aspect ratio, cooler stone-toned palette."*
 
 ### One-off episode antagonists
-No standing reference needed until one is introduced — generate a reference image for a one-off antagonist only if a chapter's threat turns out to recur or matters for later continuity (per `characters.md`).
+No standing reference needed until one is introduced — generate a reference image for a one-off antagonist only if a chapter's threat turns out to recur or matters for later continuity (per `characters.md`). **Exception in practice:** a one-off antagonist central to a multi-chapter story (like Vane in "The Weaver's Debt," Story 2) still needs a reference for consistency across that story's own chapters, even if he won't appear again afterward.
+
+### Vane (Story 2 — "The Weaver's Debt")
+Prosperous tax farmer, new money rather than old aristocracy — well-fed, well-groomed, fine but slightly gaudy clothing that reads as trying too hard to look important. An ostentatious accessory (a large signet ring, an overly ornate chain) signals his bought status rather than inherited one. Smug, calculating expression — a man confident he's untouchable.
+- **Prompt (bg):** *"Portrait of a prosperous middle-aged tax farmer, well-fed and well-groomed, fine but slightly gaudy clothing, an ostentatious signet ring, smug calculating expression, medieval setting. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Portrait framing, plain neutral gray studio background."*
+- **Prompt (hab):** *"The same man in a proud, slightly overdecorated manor house study, counting coin at a desk, self-satisfied. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide shot, 3:2 landscape aspect ratio, cooler stone-toned palette."*
 
 ---
 
@@ -114,6 +119,16 @@ Sturdy, practical, weathered from farm work — sleeves rolled up, hair tied bac
 A scrappy village boy of about 9, patched practical clothes, quick and wiry rather than sturdy, an expression that's equal parts mischievous and street-smart-beyond-his-years. Always looks like he's about to seize an opportunity before anyone notices it's there.
 - **Prompt (bg):** *"Portrait of a scrappy medieval village boy, about 9 years old, patched practical clothes, quick wiry build, mischievous street-smart expression, medieval setting. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Portrait framing, plain neutral gray studio background."*
 - **Prompt (hab):** *"The same boy mid-dash, clutching some reclaimed household object triumphantly, darting through a village scene. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide shot, 3:2 landscape aspect ratio."*
+
+### Tom Weaver
+**Story 2 character — recurs across all 3 parts of "The Weaver's Debt," so a reference is warranted despite being a single-story character.** Middle-aged, lean/wiry build from detail work rather than heavy labor, weathered hands, a leather work-apron over simple practical clothes. Careworn, quietly proud expression — a man used to being steady for his son's sake even when things are bad.
+- **Prompt (bg):** *"Portrait of a middle-aged weaver, lean wiry build, weathered hands, leather work apron over simple practical clothes, careworn but quietly proud expression, medieval setting. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Portrait framing, plain neutral gray studio background."*
+- **Prompt (hab):** *"The same man standing at a wooden loom in a small modest home workshop, a folded official notice visible on a table nearby. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide shot, 3:2 landscape aspect ratio."*
+
+### Hob Weaver
+**Story 2 character — recurs across all 3 parts.** About 9, Wat Hale's friend — deliberately distinct from Wat visually (lighter/sandier hair, a more earnest and worried default expression rather than Wat's mischievous energy). Simple practical clothes with a hint of his father's craft (a woven scarf or patched cloth).
+- **Prompt (bg):** *"Portrait of an earnest medieval village boy, about 9 years old, sandy or light brown hair, simple practical clothes with a woven scarf, worried but determined expression, medieval setting. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Portrait framing, plain neutral gray studio background."*
+- **Prompt (hab):** *"The same boy running urgently through a village, out of breath, clear determination on his face. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide shot, 3:2 landscape aspect ratio."*
 
 ---
 
@@ -168,6 +183,10 @@ A modest, quiet monastery — plain stone, orderly gardens, a sense of calm and 
 ### Hale Village
 Small, modest farming village — Agnes and Wat Hale's home. Recurred twice now (Ch1's tax seizure, Ch6's highwaymen raid), and flagged as a possible recurring beneficiary location. Humble timber-and-thatch cottages, a central square/market area, unpretentious and a little worn, warm and human-scaled rather than picturesque.
 - **Prompt:** *"A small modest medieval farming village, humble timber and thatch cottages, a central square, unpretentious and lived-in, warm human-scaled atmosphere. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide establishing shot, 3:2 landscape aspect ratio."*
+
+### Vane's Manor House (Story 2 — "The Weaver's Debt")
+A manor house its owner is very proud of, and it shows — new money trying to look like old money, slightly overdone. Grander than Loxby Manor but gaudier, less tasteful. This is the heist target for Part Two. Cooler stone tones, ornate but a little tacky.
+- **Prompt:** *"A grand but slightly gaudy medieval manor house exterior, new-money trying to look like old-money, overly ornate details that undercut its own elegance. Cooler stone tones. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide establishing shot, 3:2 landscape aspect ratio."*
 
 *(Add more locations here as chapters introduce them.)*
 
