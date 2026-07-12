@@ -91,6 +91,11 @@ Middle-aged, self-important bearing that reads as slightly too puffed-up for his
 ### One-off episode antagonists
 No standing reference needed until one is introduced — generate a reference image for a one-off antagonist only if a chapter's threat turns out to recur or matters for later continuity (per `characters.md`). **Exception in practice:** a one-off antagonist central to a multi-chapter story (like Vane in "The Weaver's Debt," Story 2) still needs a reference for consistency across that story's own chapters, even if he won't appear again afterward.
 
+### Ellen (Story 3 — "The Devil's Own Luck")
+Woman in her middle years, work-roughened hands from weaving, an exhaustion she carries carefully rather than dramatically. Practical clothes, no-nonsense bearing — someone who's used to managing hardship quietly rather than complaining about it.
+- **Prompt (bg):** *"Portrait of a middle-aged weaver woman, work-roughened hands, practical clothing, an expression of carefully-carried exhaustion and quiet determination, medieval setting. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Portrait framing, plain neutral gray studio background."*
+- **Prompt (hab):** *"The same woman arriving at a forest camp with two boys, urgency and hope in her posture. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide shot, 3:2 landscape aspect ratio."*
+
 ### Vane (Story 2 — "The Weaver's Debt")
 Prosperous tax farmer, new money rather than old aristocracy — well-fed, well-groomed, fine but slightly gaudy clothing that reads as trying too hard to look important. An ostentatious accessory (a large signet ring, an overly ornate chain) signals his bought status rather than inherited one. Smug, calculating expression — a man confident he's untouchable.
 - **Prompt (bg):** *"Portrait of a prosperous middle-aged tax farmer, well-fed and well-groomed, fine but slightly gaudy clothing, an ostentatious signet ring, smug calculating expression, medieval setting. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Portrait framing, plain neutral gray studio background."*
@@ -187,6 +192,10 @@ Small, modest farming village — Agnes and Wat Hale's home. Recurred twice now 
 ### Vane's Manor House (Story 2 — "The Weaver's Debt")
 A manor house its owner is very proud of, and it shows — new money trying to look like old money, slightly overdone. Grander than Loxby Manor but gaudier, less tasteful. This is the heist target for Part Two. Cooler stone tones, ornate but a little tacky.
 - **Prompt:** *"A grand but slightly gaudy medieval manor house exterior, new-money trying to look like old-money, overly ornate details that undercut its own elegance. Cooler stone tones. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide establishing shot, 3:2 landscape aspect ratio."*
+
+### Ashcombe (Story 3 — "The Devil's Own Luck")
+Another small, modest town — similar scale to Hale Village but distinct, its own identity rather than a repeat. Worn down by direct taxation from the Sheriff's own deputies (no middleman this time). Humble, a little threadbare, proud people bearing a hard season.
+- **Prompt:** *"A small modest medieval town, humble timber buildings, worn but proud, a sense of quiet hardship rather than despair. Warm painterly storybook illustration style, expressive and slightly exaggerated proportions, rich saturated color, soft painterly brushwork, comedic tone. Wide establishing shot, 3:2 landscape aspect ratio."*
 
 *(Add more locations here as chapters introduce them.)*
 

@@ -90,6 +90,12 @@
           "blurb": "Purchased the tax-collection rights for a whole district, and has been finding creative new dwellings-related reasons to exercise them ever since. Sleeps lighter than expected, and holds a grudge patiently."
         },
         {
+          "name": "Ellen",
+          "kind": "a weaver who walked half a day to ask for help",
+          "img": "../ELLEN_ref_bg_01.png",
+          "blurb": "An old acquaintance of Tom Weaver's, from a town with its own tax trouble now. Carries her exhaustion carefully, the way people do when they've had a lot of practice at it."
+        },
+        {
           "name": "The Sheriff of Nottingham",
           "kind": "a man who has started asking questions",
           "blurb": "Hasn't crossed paths with the crew directly yet — but a run of tax men, highwaymen, and suspiciously warped arrows has caught his attention. Word is he doesn't like coincidences."
@@ -128,6 +134,11 @@
           "name": "Vane's Manor",
           "kind": "new money, dressed up as old money",
           "blurb": "Grander than it has any right to be, and gaudier than its owner seems to notice. Its strongbox has been lighter, once, than its owner would like."
+        },
+        {
+          "name": "Ashcombe",
+          "kind": "a town with a new, unwelcome tax burden",
+          "blurb": "The Sheriff's own deputies have been collecting there directly — no middleman to blame this time. Word of the Weavers' rescue reached them, which is not nothing."
         }
       ]
     },

@@ -127,6 +127,12 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 - **Personality:** earnest, worried by nature (contrast to Wat's mischievous energy), but decisive when it counts — went straight to Wat the moment he understood the danger.
 - **Continuity notes:** genuine new friendship with Wat, given real emotional weight in Ch11 ("You actually did it" / "Told you"). A plausible recurring character if a future story wants Wat to have an established friend, though not required to recur.
 
+### Ellen (Story 3 — "The Devil's Own Luck")
+- **Gender:** female
+- **Role:** a weaver and old acquaintance of Tom Weaver's, from Ashcombe — brings word of the town's tax crisis to the crew via Wat and Hob, directly because word of the Weavers' rescue reached her
+- **Personality:** middle-aged, work-roughened, carries her exhaustion carefully rather than dramatically. Practical, not given to complaint, walked half a day on the strength of a rumor because she'd run out of other options.
+- **Status:** single-story character so far; her brother (unnamed, works the stables at Ashcombe's collection house) supplied the intelligence about the coin shipment. No plans to recur, not precluded either.
+
 ### Vane (Story 2 — "The Weaver's Debt")
 - **Gender:** male
 - **Role:** tax farmer who bought regional collection rights from the Sheriff and skims extra on top — the antagonist of Story 2
