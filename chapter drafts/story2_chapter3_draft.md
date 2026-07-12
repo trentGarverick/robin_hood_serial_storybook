@@ -1,0 +1,120 @@
+# Story 2: The Weaver's Debt
+## Part Three: Paid in Full
+
+*(Working title — happy to change. Closing chapter of Story 2.)*
+
+---
+
+**[PLATE 1 — the crew traveling back urgently, exhausted from the heist but pushing hard, visible urgency]**
+
+They did not rest, or rather, they rested exactly as much as the road allowed and not one moment longer, which by the third day had become a kind of walking sleep nobody quite admitted to. Three days there. Three days back. A fortnight's deadline that had felt generous when Hob first said it and felt, now, like considerably less room than any of them would have preferred.
+
+"How far," Robin asked, not for the first time, somewhere in the grey stretch of the final morning.
+
+"Closer than yesterday," said Marian, which had been true every time she'd said it and was, by this point, the only answer any of them had the energy to properly appreciate.
+
+---
+
+*(new text page)*
+
+Will had stopped checking his sleeve two days back, which Long John privately considered the most alarming development of the entire journey — a man too tired even for his own vanity was a man who had, in some fundamental sense, reached his limit.
+
+"If we're late," Will said, breaking a long silence, "by even an hour—"
+
+"We're not going to be late," said Marian, in the tone of a woman daring the universe to argue with her.
+
+"You don't know that."
+
+"No," she admitted. "But saying it helps, and we're short on things that help just now, so I'll take what's available."
+
+---
+
+**[PLATE 2 — arriving at the Weaver home to find a collector already there, mid-confrontation, tense standoff]**
+
+They smelled the village before they saw it, same as they had the first time, though this time there was no smoke — only the particular, sharper wrongness of raised voices carrying further than voices should in a quiet place. They crested the last rise to find a cart already standing outside the Weaver home, a collector — thin, officious, entirely unmoved by the small crowd that had gathered to watch — reading from a notice with the practiced boredom of a man who had done this to a great many families and felt nothing new about doing it to one more.
+
+"...and so, by the authority vested in Master Vane's collection rights," he was saying, "this dwelling and its contents are forfeit as of—"
+
+"As of *nothing*," said Marian, arriving at a dead run with the last of her breath, "because the debt's being paid, right now, in full."
+
+---
+
+*(new text page)*
+
+The collector turned, unhurried, and took in the sight of five extremely tired, extremely disheveled strangers with the flat unimpressed expression of a man who had heard a great many last-minute claims and believed almost none of them.
+
+"Paid with what, precisely?"
+
+Marian was already crossing to him, already producing the coin — counted, recounted, wrapped carefully against the whole journey's jostling — and pressing it into his hands with a directness that left no room for negotiation. "With this. Count it yourself, if you doubt me. It's exact."
+
+He counted it. Twice, in fact, with the particular thoroughness of a man hoping very much to find it short and being visibly disappointed when he didn't.
+
+---
+
+**[PLATE 3 — the collector forced to accept payment, grumbling, the crowd's reaction, Tom and Hob watching with disbelief and relief]**
+
+"It's..." the collector said, slowly, as though the word cost him something personal, "correct."
+
+"Then we're done here," said Marian.
+
+He looked at the coin, looked at the notice still in his other hand, and looked, finally, at the small crowd now watching him with an attention he plainly found uncomfortable — Tom Weaver in the doorway, one hand braced hard on the frame as though it were the only thing currently holding him upright, Hob beside him, not breathing at all.
+
+"The debt's cleared," the collector announced, to no one in particular, folding the notice away with the graceless economy of a man abandoning a small, petty victory he'd been rather looking forward to. "For now."
+
+---
+
+*(new text page)*
+
+He left without further ceremony, the way officious men generally do once the officiousness has stopped serving them, and the small crowd that had gathered — neighbors, mostly, the kind of people who show up for a thing like this because someone ought to, even if they can't do anything about it themselves — let out a breath that had been held collectively and for rather a long time.
+
+Tom Weaver did not move from the doorway for a moment, as though his legs hadn't yet been informed the crisis was over. Then he was moving, all at once, crossing the yard to Marian with an expression that couldn't seem to settle on gratitude or disbelief and so simply carried both at once.
+
+"I don't—" he started, and stopped, and tried again. "I don't know how to—"
+
+"You don't have to," said Marian, gently, for once entirely without her usual brisk edge. "That's rather the point of it."
+
+---
+
+**[PLATE 4 — the emotional aftermath: the Weaver family's relief, Hob and Wat's friendship, warmth]**
+
+Hob had crossed to Wat before anyone quite noticed him moving, and the two boys stood together in the particular silence of people who don't yet have words adequate to a thing and aren't going to force the attempt. It was Hob, eventually, who broke it, in the low, cracking voice of someone trying very hard not to cry in front of witnesses and only partly succeeding.
+
+"You actually did it."
+
+"Told you," said Wat, with the same deep satisfaction he'd carried since the first time those words had proven true, though there was, this time, considerably more feeling underneath the familiar phrase than there'd been the first time he'd said it.
+
+Brother Crumb, meanwhile, had already produced food from somewhere — a fact nobody questioned any longer, on principle — and was distributing it among the gathered neighbors with the unhurried generosity of a man who considered a crisis properly over only once everyone present had something to eat.
+
+---
+
+*(new text page)*
+
+"You'll stay," Tom Weaver said, not quite a question, "at least for supper. I haven't much, but what I have, you've more than earned."
+
+"We'd be glad to," said Robin, and meant it, in the simple uncomplicated way that came easiest to him when the danger had actually passed rather than merely paused.
+
+It was, by any measure, a good evening — modest food stretched generously across too many plates, Tom Weaver's loom sitting silent and safe in its corner, Hob and Wat trading the specific exaggerated retelling of events that boys their age couldn't help but produce, each version slightly larger than the one before it. Long John, seated on the ground rather than risk the furniture, looked more at ease than he had in days. Will, notably, had started checking his sleeve again, which everyone privately took as a good sign.
+
+---
+
+**[PLATE 5 — closing: the crew departing, a quiet reflective beat, the justice theme affirmed, Vane's unresolved threat lingering privately]**
+
+They left the following morning, well-fed and considerably more rested than they'd arrived, with the particular satisfaction of people who'd done a genuinely difficult thing and watched it actually work. Hob walked with them as far as the village's edge, Wat beside him, both boys reluctant in the specific way of new friends who suspect, correctly, that goodbyes are rarely as final as they feel.
+
+"Will you come back?" Hob asked.
+
+"When you need us," Robin said, "which I sincerely hope is never again, and which I suspect won't entirely be up to either of us."
+
+---
+
+*(new text page)*
+
+They walked a good while in comfortable silence after the boys had turned back, the weight of a genuinely finished thing settling over the five of them in a way that felt, for once, entirely earned rather than merely lucky.
+
+"That's what Justice looks like, then," Will said eventually, half to himself. "Considerably more walking than I'd have guessed."
+
+"Most worthwhile things are," said Marian.
+
+Robin said nothing for a while, turning something over that had little to do with the Weavers and rather more to do with a voice he kept hearing in memory — cold, patient, promising — every time the road went quiet enough to let it back in. He didn't mention it. Not yet. There would be time enough for Vane later, he suspected, whether any of them were ready for it or not.
+
+For now, the roof was saved, the debt was paid, and that, at least, was enough.
