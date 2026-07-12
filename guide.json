@@ -123,6 +123,11 @@
           "name": "The Geese Village",
           "kind": "small, unlucky, and not actually named that",
           "blurb": "Nobody remembers its real name anymore — not since the geese. Home to Agnes and Wat Hale, and the place where all of this, one way or another, started."
+        },
+        {
+          "name": "Vane's Manor",
+          "kind": "new money, dressed up as old money",
+          "blurb": "Grander than it has any right to be, and gaudier than its owner seems to notice. Its strongbox has been lighter, once, than its owner would like."
         }
       ]
     },
@@ -186,6 +191,11 @@
           "name": "Beggar's cloak",
           "kind": "means \u201cjoke\u201d",
           "blurb": "As in: you are a beggar's-cloak of a thief, you know that? (Said with real affection, to a dog, about a stolen loaf of bread.)"
+        },
+        {
+          "name": "Widow's mite",
+          "kind": "means \u201cfright\u201d",
+          "blurb": "As in: a right widow's-mite of an afternoon."
         }
       ]
     }

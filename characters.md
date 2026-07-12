@@ -113,7 +113,25 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 - **Introduced:** Ch1 (Part One) — the family whose goods are seized by the tax man, sparking Robin's first (botched) intervention.
 - **Agnes Hale** — gender female, a practical, sharp-tongued, protective widow/farmer. Unimpressed by everyone, including the outlaw who "helped" her.
 - **Wat Hale** — gender male, her son, around 9 years old. Cheeky, quick, opportunistic in a scrappy-survivor way (he's the one who reclaims the grandmother's stool mid-chaos).
-- **Status:** not yet locked as a recurring beneficiary family for future "give to the poor" chapters (see `story-bible.md` open question), but referenced here and given image references so they're available to bring back if a later chapter wants them.
+- **Status:** not yet locked as a recurring beneficiary family for future "give to the poor" chapters directly, but **Wat's role has evolved (Story 2) into the crew's connector to new cases** — he's the one who brought Hob Weaver's family's crisis to the group. Worth reusing deliberately in future stories.
+
+### Tom Weaver (Story 2 — "The Weaver's Debt")
+- **Gender:** male
+- **Role:** a weaver facing eviction over a manufactured tax debt — the crisis at the center of Story 2
+- **Personality:** steady, quietly proud of what he's built with his own hands. Careworn but not defeated. Genuinely at a loss for how to thank the crew once his home is saved.
+- **Status:** single-story character (Ch9–11); no plans to recur, but not precluded either.
+
+### Hob Weaver (Story 2 — "The Weaver's Debt")
+- **Gender:** male
+- **Role:** Tom's son, about 9 (Wat Hale's age) — the one who brings the crisis to Wat, and through him, to the crew
+- **Personality:** earnest, worried by nature (contrast to Wat's mischievous energy), but decisive when it counts — went straight to Wat the moment he understood the danger.
+- **Continuity notes:** genuine new friendship with Wat, given real emotional weight in Ch11 ("You actually did it" / "Told you"). A plausible recurring character if a future story wants Wat to have an established friend, though not required to recur.
+
+### Vane (Story 2 — "The Weaver's Debt")
+- **Gender:** male
+- **Role:** tax farmer who bought regional collection rights from the Sheriff and skims extra on top — the antagonist of Story 2
+- **Personality:** prosperous, vain, calculating. Sleeps lighter than his comfortable circumstances would suggest. Not comic relief like the Sheriff — reads as a genuine, patient threat.
+- **Status:** **NOT resolved.** The crew successfully robbed him to pay off the Weavers' debt (Ch10), but he woke and got a clear look at all five of their faces before they escaped. His reaction was cold and patient rather than merely furious — reads as a man confident the matter isn't closed. Left deliberately open per the Open Threads Tracker's "one-off antagonists don't need clean resolutions" default. **He operates under the Sheriff's authority** (bought his rights from him), making him a natural way to eventually connect a Vane storyline to the Sheriff himself.
 
 ---
 
