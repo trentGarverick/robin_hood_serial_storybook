@@ -55,6 +55,7 @@ def embed(img_rel, label):
 
 # --- chapters -------------------------------------------------------
 chapters = []
+chapter_ids = []
 for cid in manifest["chapters"]:
     cpath = ROOT/"chapters"/f"{cid}.json"
     if not cpath.exists():
@@ -68,6 +69,7 @@ for cid in manifest["chapters"]:
             if isinstance(entry, dict) and entry.get("image"):
                 entry["image"] = embed(entry["image"], cid)
     chapters.append(ch)
+    chapter_ids.append(cid)
     print(f"  - {cid} embedded")
 
 # --- cover (optional) ----------------------------------------------
@@ -77,7 +79,7 @@ if isinstance(manifest.get("cover"), dict) and manifest["cover"].get("image"):
     cover["image"] = embed(cover["image"], "cover")
     print("  - cover embedded")
 
-bundle = {"title": manifest.get("title","Untitled"), "chapters": chapters}
+bundle = {"title": manifest.get("title","Untitled"), "chapters": chapters, "chapterIds": chapter_ids}
 if manifest.get("comingSoon"):
     bundle["comingSoon"] = manifest["comingSoon"]
 if cover:

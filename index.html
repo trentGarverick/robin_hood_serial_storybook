@@ -498,11 +498,12 @@ async function loadBook(){
       if(!mani.ok) throw new Error('no manifest');
       const manifest = await mani.json();
       const chs = [];
+      const chIds = [];
       for(const id of manifest.chapters){
         const r = await fetch(`chapters/${id}.json`,{cache:'no-store'});
-        if(r.ok) chs.push(await r.json());
+        if(r.ok){ chs.push(await r.json()); chIds.push(id); }
       }
-      book = { title: manifest.title || book.title, chapters: chs, cover: manifest.cover || null, comingSoon: manifest.comingSoon || null };
+      book = { title: manifest.title || book.title, chapters: chs, cover: manifest.cover || null, comingSoon: manifest.comingSoon || null, chapterIds: chIds };
       try{                                             // guide is optional; never fatal
         const g = await fetch('guide.json',{cache:'no-store'});
         if(g.ok){ GUIDE = await g.json(); }
@@ -519,7 +520,41 @@ async function loadBook(){
   buildSpreads();
   document.getElementById('bookTitle').textContent = book.title;
   document.title = book.title;
-  render(0);
+
+  // Map story-name "slugs" (e.g. "the-weavers-debt") to the ci of that
+  // story's FIRST chapter, derived from each chapter's "_story" field.
+  // Lets a link use the story's name instead of a chapter id — e.g.
+  // #the-weavers-debt jumps to Part One of "The Weaver's Debt" — good for
+  // sharing/promoting a whole story rather than one specific chapter.
+  const slugify = s => String(s).toLowerCase()
+    .replace(/['\u2019]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  book.storySlugs = {};
+  book.chapters.forEach((c, ci) => {
+    if(c._story){
+      const slug = slugify(c._story);
+      if(!(slug in book.storySlugs)) book.storySlugs[slug] = ci; // first chapter of that story wins
+    }
+  });
+
+  // DEEP LINKING: the URL hash can be either a chapter id (#ch9) or a story
+  // slug (#the-weavers-debt) — either jumps straight to that chapter's
+  // first page instead of the cover. Falls back to the cover for any
+  // unrecognized/missing hash.
+  let startAt = 0;
+  const hashId = decodeURIComponent(location.hash.replace(/^#/, ''));
+  if(hashId && book.chapterIds){
+    let targetCi = book.chapterIds.indexOf(hashId);
+    if(targetCi === -1 && hashId in book.storySlugs){
+      targetCi = book.storySlugs[hashId];
+    }
+    if(targetCi !== -1){
+      const spreadIdx = firstSpreadIndexForChapter(targetCi);
+      if(spreadIdx) startAt = spreadIdx;
+    }
+  }
+  render(startAt);
 }
 
 function chapterTextPages(c){
@@ -598,6 +633,18 @@ function render(i){
   if(i<0 || i>=spreads.length) return;
   current = i;
   const s = spreads[i];
+
+  // Keep the URL hash in sync with the current chapter, so the address bar
+  // is always a shareable/bookmarkable deep link. replaceState (not
+  // pushState) so page-turns don't spam the browser's back button — the
+  // reader's own Previous/Next buttons remain the way to navigate, not the
+  // browser's history.
+  if(book.chapterIds){
+    const wantedHash = (s.ci!==undefined) ? ('#'+book.chapterIds[s.ci]) : '';
+    if(location.hash !== wantedHash){
+      history.replaceState(null, '', wantedHash || location.pathname + location.search);
+    }
+  }
   const c = s.c;
   const imgCaption = document.getElementById('imgCaption');
   imgCaption.style.display = 'none';   // external caption retired; caption now overlays inside the page
