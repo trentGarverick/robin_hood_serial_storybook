@@ -199,6 +199,11 @@
   .chapter-eyebrow{font-family:"Cinzel",serif;font-size:calc(11px * var(--fs));letter-spacing:.22em;text-transform:uppercase;color:var(--gold);text-align:center;}
   .chapter-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:calc(2.2rem * var(--fs));line-height:1.05;text-align:center;margin:0;color:var(--ink);}
   .title-rule{width:120px;height:1px;margin:2px auto 6px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+  .story-title{
+    font-family:"Cormorant Garamond",serif;font-style:italic;
+    font-size:calc(1rem * var(--fs));letter-spacing:.04em;
+    color:var(--ink-soft);opacity:.75;text-align:center;margin:0 0 2px;
+  }
   .chapter-body{font-size:calc(1.12rem * var(--fs));line-height:1.7;color:var(--ink-soft);max-width:64ch;margin:0 auto;}
   .chapter-body > p{margin:0 0 1em;}
   .chapter-body > p:last-child{margin-bottom:0;}
@@ -211,6 +216,7 @@
     padding:26px 24px 20px;pointer-events:none;
   }
   .img-caption .eyebrow{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;opacity:.95;text-shadow:0 1px 6px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.5);}
+  .img-caption .story-title{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:13px;color:#f6efe0;opacity:.85;text-shadow:0 1px 6px rgba(0,0,0,.7),0 0 18px rgba(0,0,0,.5);margin:0 0 2px;}
   .img-caption h1{margin:.12em 0 0;font-weight:600;font-size:clamp(1.5rem,2.8vw,2.2rem);line-height:1.1;text-shadow:0 2px 10px rgba(0,0,0,.75),0 0 26px rgba(0,0,0,.5);}
   .pager{display:flex;align-items:center;justify-content:space-between;color:var(--parchment);}
   .nav-btn{font-family:"Cinzel",serif;background:#2a241d;color:var(--parchment);border:1px solid rgba(243,234,215,.4);border-radius:4px;padding:10px 20px;cursor:pointer;font-size:13px;letter-spacing:.08em;transition:background .15s,border-color .15s,opacity .15s;}
@@ -352,6 +358,7 @@
   @media print{
     @page{ margin:12mm; }
     .print-caption{display:block;text-align:center;color:#1f1a14;font-family:"Cormorant Garamond",serif;padding:8px 0 0;}
+    .print-caption .story-title{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:12px;color:#6b5a3f;opacity:.85;margin:0 0 2px;}
     .print-caption .eyebrow{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#9a6a2f;}
     .print-caption h1{margin:.15em 0 0;font-weight:600;font-size:2rem;line-height:1.1;}
     body{background:#fff;padding:0;display:block;}
@@ -685,7 +692,7 @@ function render(i){
   if(s.type === 'image'){
     pageEl.className = 'page image-page';
     const capHTML = s.caption
-      ? `<div class="img-caption"><div class="eyebrow">${c.eyebrow||''}</div><h1>${c.title||''}</h1></div>`
+      ? `<div class="img-caption">${c._story ? `<div class="story-title">${c._story}</div>` : ''}<div class="eyebrow">${c.eyebrow||''}</div><h1>${c.title||''}</h1></div>`
       : '';
     pageEl.innerHTML = `<figure class="plate"><img src="${s.image||c.image}" alt="${c.title||''}" onerror="this.style.opacity=0">${capHTML}</figure>`;
   } else {
@@ -693,14 +700,17 @@ function render(i){
     const firstPage = s.pageIndex === 0;
     pageEl.innerHTML = `
       <div class="page-inner ${firstPage?'':'cont'}" tabindex="0">
-        ${firstPage ? `<div class="chapter-eyebrow">${c.eyebrow||''}</div>
+        ${firstPage ? `${c._story ? `<div class="story-title">${c._story}</div>` : ''}<div class="chapter-eyebrow">${c.eyebrow||''}</div>
         <h1 class="chapter-title">${c.title||''}</h1>
         <div class="title-rule"></div>` : ''}
         <div class="chapter-body">${(s.paras||[]).map(p=>`<p>${p}</p>`).join('')}</div>
       </div>`;
   }
   pageCount.style.visibility = 'visible';
-  pageCount.innerHTML = `Page ${s.chapterPage} of ${s.chapterTotal}<span class="ch">Chapter ${s.ci+1}</span>`;
+  const chLabel = c._story
+    ? (c._story + (c.eyebrow ? ' — ' + c.eyebrow : ''))
+    : ('Chapter ' + (s.ci+1));
+  pageCount.innerHTML = `Page ${s.chapterPage} of ${s.chapterTotal}<span class="ch">${chLabel}</span>`;
   prevBtn.disabled = (i===0);
   nextBtn.disabled = (i===spreads.length-1);
 }
@@ -738,7 +748,7 @@ document.getElementById('downloadBtn').addEventListener('click',()=>{
       <figure class="plate"><img src="${img}" alt=""></figure>
     </div>
     <div class="print-caption">
-      <div class="eyebrow">${c.eyebrow||''}</div><h1>${c.title||''}</h1>
+      ${c._story ? `<div class="story-title">${c._story}</div>` : ''}<div class="eyebrow">${c.eyebrow||''}</div><h1>${c.title||''}</h1>
     </div>` : `
     <div class="page image-page" style="position:relative">
       <figure class="plate"><img src="${img}" alt=""></figure>
@@ -746,7 +756,7 @@ document.getElementById('downloadBtn').addEventListener('click',()=>{
     const textPageHTML = (paras, isFirst) => `
     <div class="page">
       <div class="page-inner ${isFirst?'':'cont'}">
-        ${isFirst?`<div class="chapter-eyebrow">${c.eyebrow||''}</div>
+        ${isFirst?`${c._story ? `<div class="story-title">${c._story}</div>` : ''}<div class="chapter-eyebrow">${c.eyebrow||''}</div>
         <h1 class="chapter-title">${c.title||''}</h1>
         <div class="title-rule"></div>`:''}
         <div class="chapter-body">${(paras||[]).map(p=>`<p>${p}</p>`).join('')}</div>
