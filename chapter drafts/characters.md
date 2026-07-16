@@ -67,6 +67,12 @@ This file is the single source of truth for character identity (names, genders, 
 
 Three animals belonging to (or adopted by) the gang, each granted telepathic ability by Master Thistlewood — this is how he keeps informed of the gang's doings from a distance without appearing himself. **This mechanism is a locked continuity fact.** The animals' personalities and banter with each other have been shown on the page since Ch7. **Update (post-Ch16):** the wizard reveal this was gated behind has now happened (to Marian and the reader) — the animals' reporting-to-Thistlewood mechanism hasn't been explicitly stated on-page yet, but there's no longer a reveal-timing reason to keep withholding it if a future chapter wants to show it directly. It just hasn't come up yet.
 
+**HARD RULE — humans cannot understand animal speech, ever, no exceptions currently established:** animal dialogue (marked in italics per the voice guide) is a **reader-only device** — the reader "overhears" it, but no human character perceives it as language. This means:
+- A human can react to an animal's **behavior** (alarm, urgency, headbutting a crate, staring fixedly at a treeline) — never to the specific *content* of what an animal just said.
+- Never write a human asking a follow-up question that only makes sense if they understood the animal's actual words (e.g. Marian asking "How far?" right after Gideon describes "a dozen men in formation" — this was an actual error caught and fixed in a Story 4 draft; don't repeat it).
+- If a scene needs a human to know a specific tactical detail (guard count, formation, direction), have a **human** discover it directly (cresting a rise and seeing it themselves, as in Ch12's Vane ambush) — not receive it via animal speech.
+- Thistlewood and Pip are the apparent exception (the animals report to Thistlewood), but this hasn't been shown as literal spoken comprehension on-page either — treat it as the same kind of unshown mechanism as the rest of his magic, not a precedent for other humans to understand animal speech.
+
 ### Gideon (the goat)
 - **Gender:** male
 - **Personality:** normally reasonable and level-headed — the closest thing the animal trio has to a calm voice of reason — but turns cranky and bellicose the instant someone or something threatens or interferes with the gang. The shift is sudden and total, which is most of the joke.
