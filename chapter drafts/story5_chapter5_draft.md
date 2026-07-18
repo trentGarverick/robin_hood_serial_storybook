@@ -1,0 +1,102 @@
+# Story 5: The Sheriff's Reckoning
+## Part Five: A Civil Sort of Cruelty
+
+*(Working title — happy to change. Entirely from Robin's POV as a prisoner — first time we meet the Sheriff directly.)*
+
+---
+
+**[PLATE 1 — Robin waking in a cell at the Sheriff's Keep, taking stock of his surroundings]**
+
+Robin woke slowly, which was, he decided, probably the only mercy he was likely to be offered for some while, and took the earliest opportunity to catalogue his situation with the particular thoroughness of a man who suspected the details might matter later.
+
+Stone walls. A single high window, too narrow for anything but light and cold air to pass through. A door with a lock on the outside rather than the in, which struck him, in the detached way a man notices things when his head still ached from being struck, as a fairly comprehensive summary of his current bargaining position.
+
+"Well," he said, to the empty cell, "this is considerably less comfortable than a campfire."
+
+Nobody answered him. He hadn't especially expected anyone to.
+
+---
+
+*(new text page)*
+
+He spent what felt like a long while simply existing in the quiet — cataloguing his aches, testing the door out of obligation rather than hope, wondering, with the particular circling anxiety of a man with nothing else to occupy him, exactly how the others had fared. Whether Long John's shoulder had held. Whether Marian had gotten everyone clear.
+
+Whether any of them were coming, or whether coming was even a sensible thing to attempt against whatever this place actually was.
+
+He didn't let himself finish that particular thought. It seemed, on reflection, like the sort of thought a man in his position could do considerably without.
+
+---
+
+**[PLATE 2 — Robin being brought before the Sheriff for the first time, the dramatic first meeting]**
+
+They came for him without ceremony, two guards silent and efficient, marching him through corridors considerably grander than the cell had prepared him for — tapestries, proper stonework, the particular cold opulence of a man who wanted visitors to understand his importance before he'd said a single word to confirm it.
+
+The Sheriff of Nottingham was seated when Robin was brought before him, and did not rise, and did not speak immediately, simply studying his prisoner with the calm, unhurried attention of a man reviewing an account book rather than meeting an enemy he'd spent months failing to catch.
+
+"So," he said, finally, and his voice was quieter than Robin had expected, which was somehow worse than shouting would have been. "You're the one causing me all this trouble."
+
+---
+
+*(new text page)*
+
+"I'd argue the trouble's rather been of your own making," Robin said, before he'd properly thought better of it, "given it mostly started with you taxing people who couldn't afford it."
+
+Something flickered across the Sheriff's face — not anger, precisely, more the particular weary patience of a man who had heard this exact argument a great many times and considered it, each time, entirely beside the point.
+
+"You misunderstand your role in this," the Sheriff said, mild, unbothered. "I don't tax people because I enjoy it, Master Loxby. I tax people because a kingdom without order collapses into precisely the kind of chaos you and your little band of thieves represent. Someone must maintain the structure. It has simply, unfortunately, fallen to me to be disliked for doing it."
+
+---
+
+**[PLATE 3 — the interrogation continuing, the Sheriff probing for information, Robin's honest confusion]**
+
+"You've had, by my count, an extraordinary run of fortune," the Sheriff continued, rising now, circling Robin with the slow, deliberate patience of a man in no hurry to reach his point. "Tax collections gone wrong. A highwayman routed by an old man and a boy nobody official can properly describe. A tax farmer humiliated in his own home. Arrows that never quite miss when it matters, however poorly aimed they appear beforehand." He stopped, directly in front of Robin now, studying him with real, unhidden curiosity. "I find myself wondering, Master Loxby, precisely how a man this consistently unlucky manages to be this consistently fortunate. Enlighten me."
+
+"I honestly don't know," Robin said, and meant it entirely, which seemed, somehow, to be exactly the wrong answer.
+
+---
+
+*(new text page)*
+
+"You honestly don't know," the Sheriff repeated, flat, and there — small, almost imperceptible, easy to miss if Robin hadn't been watching so closely — was the first crack in the composed exterior: a muscle at the corner of his jaw, tightening, releasing, tightening again, the precise physical signature of a man discovering his careful expectations weren't going to be met.
+
+"I don't," Robin said again, with the particular stubborn honesty that had gotten him into considerably more trouble than it had ever gotten him out of. "We've been lucky. I don't have a better explanation than that, and I'm sorry if that's disappointing, but I can't give you a lie simply because it would fit your questions better."
+
+The jaw tightened again. The Sheriff turned away, composing himself with visible, deliberate effort, and Robin filed the observation away with the particular care of a man who suspected he might need it later.
+
+---
+
+**[PLATE 4 — the Sheriff's real menace becoming clear despite his controlled demeanor, genuine tension]**
+
+"Here is what I believe, Master Loxby," the Sheriff said, once he'd turned back, his voice regaining its earlier, unsettling calm. "I believe you genuinely don't understand your own good fortune. I find that, if anything, more troubling than the alternative. A man who knows how he cheats can be reasoned with, or bribed, or broken. A man who has simply been permitted to succeed, by forces he doesn't understand and cannot control—" He let the sentence trail, deliberately, watching Robin's face for whatever reaction the unfinished thought might produce. "That man is considerably harder to plan for. I dislike things I cannot plan for."
+
+"Then let me go," Robin said, "and go back to not understanding it somewhere considerably further from you."
+
+The Sheriff, for the first time since Robin had been brought before him, actually smiled — thin, humorless, entirely without warmth. "I admire the attempt," he said. "The answer remains no."
+
+---
+
+*(new text page)*
+
+"What happens now?" Robin asked, and found, somewhat to his own surprise, that his voice held steadier than he'd expected it to.
+
+"Now," the Sheriff said, "you remain my guest while I decide what your continued existence is actually worth to me — as a lesson to others who might consider following your example, as leverage against whatever remains of your little band, or, should neither prove useful, as simply one fewer complication in a district that has had considerably too many of them this year." He gestured, unhurried, to the waiting guards. "I am not a cruel man, Master Loxby, whatever the stories claim. I am simply a thorough one. You'll find, in my experience, that the second is very often considerably worse."
+
+---
+
+**[PLATE 5 — Robin left alone again, processing what he's learned, ending on uncertainty and dread]**
+
+They returned him to the cell with the same wordless efficiency they'd removed him with, and Robin sat, once the door had locked behind him, turning the whole exchange over with the particular careful attention of a man trying to extract something useful from an encounter that had otherwise cost him rather a lot.
+
+A man who has simply been permitted to succeed. He didn't know what the Sheriff had meant by it, not precisely — but something in the phrasing sat wrong in a way he couldn't quite name, a shape just slightly too specific to be simple rhetoric.
+
+He thought, unbidden, of Thistlewood's staff. Of horses that stumbled at exactly the right moment. Of a great many small, improbable things he'd never once properly questioned, because questioning good luck had always seemed like tempting it to stop.
+
+---
+
+*(new text page)*
+
+He didn't reach any conclusion worth the name — not with his head still aching, not alone in a cell with nothing but his own increasingly uncomfortable thoughts for company — but the seed of the question had been planted regardless, and Robin found, lying back against cold stone with no better use for the hours ahead of him, that he couldn't quite make himself stop turning it over.
+
+Permitted to succeed. By forces he doesn't understand.
+
+Somewhere beyond the walls, he hoped — with more conviction than he entirely felt — the others were already working on getting him out. He had no way of knowing whether that hope was reasonable. He decided, in the absence of anything better to occupy the waiting, to believe it anyway.

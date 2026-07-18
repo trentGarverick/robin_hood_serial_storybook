@@ -97,8 +97,9 @@
         },
         {
           "name": "The Sheriff of Nottingham",
-          "kind": "a man who has started asking questions",
-          "blurb": "Hasn't crossed paths with the crew directly yet — but a run of tax men, highwaymen, and suspiciously warped arrows has caught his attention. Word is he doesn't like coincidences."
+          "kind": "a man who prefers order to chaos, and says so",
+          "img": "../SHERIFF_ref_bg_01.png",
+          "blurb": "Quiet, composed, and entirely unhurried — which somehow makes him considerably more unsettling than shouting would. Believes, sincerely, that he's the reasonable one in all of this."
         },
         {
           "name": "Captain Rowena Blackwood",
