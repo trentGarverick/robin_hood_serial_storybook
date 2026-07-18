@@ -99,6 +99,18 @@
           "name": "The Sheriff of Nottingham",
           "kind": "a man who has started asking questions",
           "blurb": "Hasn't crossed paths with the crew directly yet — but a run of tax men, highwaymen, and suspiciously warped arrows has caught his attention. Word is he doesn't like coincidences."
+        },
+        {
+          "name": "Captain Rowena Blackwood",
+          "kind": "a proper soldier, not hired muscle",
+          "img": "../ROWENABLACKWOOD_ref_bg_01.png",
+          "blurb": "Fought in the north before the Sheriff bought her contract. Disciplined, patient, and pays attention to things most people wouldn't think to notice — like birdsong going quiet."
+        },
+        {
+          "name": "Witchfinder Josiah Crane",
+          "kind": "a man collecting stories, patiently",
+          "img": "../JOSIAHCRANE_ref_bg_01.png",
+          "blurb": "Church-sent, investigating some rather colorful rumors out of Sherwood. Doesn't seem especially interested in whether the stories are true — only in what might be hiding underneath them."
         }
       ]
     },

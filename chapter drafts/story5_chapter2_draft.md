@@ -1,0 +1,102 @@
+# Story 5: The Sheriff's Reckoning
+## Part Two: An Old Grudge, Freshly Sharpened
+
+*(Working title — happy to change.)*
+
+---
+
+**[PLATE 1 — the scouting party returning to observe Blackwood's camp again, more established/settled now, a sense of continued vigilance]**
+
+They returned to the ridge two days later, better prepared this time and considerably less inclined to underestimate what a single afternoon's observation could tell them. Blackwood's camp had grown in that time — not dramatically, but steadily, the particular unhurried expansion of an operation that expected to be somewhere a while and intended to be comfortable about it.
+
+"She's settling in," Marian observed, low, counting tents with the brisk efficiency of a woman who had done this kind of counting before and trusted her own numbers more than anyone else's estimate. "Not a raid. A siege, near enough, just one that hasn't started properly yet."
+
+"Cheerful," murmured Will, from beside her, checking his sleeve out of nervous habit rather than any real concern for its condition.
+
+---
+
+*(new text page)*
+
+*"Someone's arriving,"* Gideon said, low, to the other two, ears forward, attention fixed on the road below rather than the camp itself. *"A cart. Well-appointed. Whoever's riding in it isn't accustomed to walking anywhere he doesn't have to."*
+
+*"That's oddly specific for a description,"* said Barley.
+
+*"I've met the type before,"* said Gideon, with the particular flatness of an animal recalling something he hadn't especially enjoyed the first time. *"Recently, in fact."*
+
+Marian, who couldn't hear any of it, followed Gideon's fixed attention toward the road regardless, some old habit of trusting his focus over her own eyes doing the work language couldn't.
+
+---
+
+**[PLATE 2 — Vane arriving at Blackwood's camp, being received, the crew's shocked recognition]**
+
+The cart that crested the rise a few minutes later was, unmistakably, Vane's — the same overdone finery, the same self-satisfied posture, the same air of a man who had never once in his life doubted his own importance. He was received at the camp's edge not with the deference of a supplicant, but with the brisk, professional courtesy of a man being treated as a resource rather than a guest.
+
+"That's—" Robin started.
+
+"Vane," Marian finished, flat, something cold settling behind her eyes that had nothing to do with the day's temperature. "Of course it's Vane."
+
+"Of course it is," Will echoed, with real bitterness. "He never did strike me as a man who'd let an insult go simply because inconvenience got in the way of pursuing it."
+
+---
+
+*(new text page)*
+
+They watched him dismount, watched him greet Blackwood herself with the particular ingratiating warmth of a man who had learned, somewhere along the way, that flattery cost nothing and occasionally purchased quite a lot.
+
+"We need to hear this," Marian said, already moving, already calculating the angle of approach that would bring them close enough without bringing them close enough to be seen. "Whatever he's telling her, we need to know exactly how much of it is true."
+
+"All of it, probably," said Robin, grim. "That's rather the trouble with Vane. He's never needed to lie about us. The truth was damning enough on its own."
+
+---
+
+**[PLATE 3 — the crew creeping closer to eavesdrop, catching fragments of Vane's conversation with Blackwood, confirming his betrayal]**
+
+They got close enough, in the end, crouched low behind a fallen trunk within uncomfortable earshot of the camp's edge, to catch fragments rather than the whole of it — enough, though, to leave no real doubt about the shape of what was being offered.
+
+"...five of them, generally," Vane was saying, in the easy, confiding tone of a man thoroughly enjoying being listened to. "A woman who does the actual thinking. A giant who apologizes more than he fights, if you can believe it. An archer who can't hit what he's aiming at and somehow keeps hitting what matters anyway. I want them found, Captain. I want them found *properly*, this time, and I am prepared to make it considerably worth your trouble."
+
+"We don't require additional incentive to do our jobs, Master Vane," Blackwood said, cool, unmoved. "But I won't turn away useful information simply because the man offering it has petty reasons for wanting it acted on."
+
+---
+
+*(new text page)*
+
+"Petty," Vane repeated, something sharper flashing beneath the practiced charm. "They robbed me in my own home, Captain. Made a fool of me in front of my own household staff. I don't call that petty. I call it a debt owed, and I intend to see it collected."
+
+"Call it whatever helps you sleep," Blackwood said, entirely unbothered by his tone. "I'll use what's useful and discard the rest, same as I do with everything. Description of the woman, again — the one you say does the thinking."
+
+Marian, crouched low enough that the fallen trunk's bark had begun leaving marks on her forearms, felt something in her chest go very still and very cold as Vane began, with obvious relish, to describe her.
+
+---
+
+**[PLATE 4 — the tense near-discovery: Vane's gaze sweeping close to their hiding spot, real danger of personal recognition]**
+
+It was mid-description, oddly, that Vane paused — some old instinct, or simple bad luck, drawing his attention toward the treeline in a slow, deliberate sweep that had nothing to do with anything Blackwood had asked him.
+
+Robin went utterly still. Will's hand found his sleeve and did not let go. Even Gideon, pressed low against the ground beside them, seemed to have stopped breathing entirely.
+
+Vane's gaze passed within a few unbearable feet of their position — close enough that Marian could see, with perfect and unwelcome clarity, the exact moment his eyes caught on something that wasn't quite right about the shadows near the fallen trunk.
+
+---
+
+*(new text page)*
+
+"Master Vane?" Blackwood prompted, when he didn't continue.
+
+"Nothing," Vane said, after a beat that felt, to five people holding their breath forty feet away, considerably longer than a beat had any right to feel. "Thought I saw something. Woods play tricks on a man's eyes." He turned back to Blackwood, the moment passing, though not quickly enough for any of the crew's hearts to have fully caught up with the relief of it. "As I was saying. The woman. Sharp-eyed. Sharp-tongued. You'll know her the moment she starts giving orders nobody asked her to give."
+
+They didn't move again — didn't so much as shift their weight — until Vane's cart had rattled back down the road and the camp's ordinary business had resumed around them, at which point Marian, very quietly, allowed herself to breathe properly for what felt like the first time in several minutes.
+
+---
+
+**[PLATE 5 — closing: the crew withdrawing, processing Vane's betrayal, personal anger mixing with the growing dread of Blackwood's competence]**
+
+They didn't speak until they were well clear of the ridge, and even then it was Will who broke the silence first, his voice carrying a rawer edge than his usual easy cynicism generally allowed.
+
+"He's enjoying this," Will said. "That's the part I can't quite get past. It isn't even really about the coin anymore. He's *enjoying* it."
+
+"Men like Vane generally do," Marian said. "Humiliation's a debt too, to people who keep that particular kind of ledger. We simply didn't realize how carefully he was keeping his."
+
+"So now Blackwood has descriptions," Robin said, grim, working through the arithmetic of it. "Faces. Habits. Everything Vane knows, which is considerably more than any scout has managed to learn on their own so far."
+
+"Yes," Marian agreed. "Which means the advantage we had — being unknown quantities to a woman who plans for exactly what she can measure — is gone." She looked back once, toward the distant camp, jaw set. "We'll simply have to become a harder problem to measure than Vane's descriptions can account for. It won't be the first time we've managed that."
