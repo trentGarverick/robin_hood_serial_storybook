@@ -1,0 +1,148 @@
+# Story 5: The Sheriff's Reckoning
+## Part Six: Breaking and Entering (Mostly Entering)
+
+*(Working title — happy to change. Full team effort, rebalancing back toward humor after two serious chapters.)*
+
+---
+
+**[PLATE 1 — the full team planning the rescue together: Marian, Will, Long John, Crumb, Thistlewood, and Pip, comedic disagreement over approach]**
+
+"We go in loud," Will proposed, with the particular confidence of a man who had clearly given this considerably less thought than the moment warranted. "Cause a scene at the front gate. Draw the guards. Simple."
+
+"We are not," said Marian, "going in loud."
+
+"We could go in loud *and* clever."
+
+"That's not a real category, Will."
+
+"It could be, if you'd simply let me—"
+
+"*No.*"
+
+---
+
+*(new text page)*
+
+"If I might," Thistlewood interjected, mild, from where he'd been listening with the particular patience of a man who had planned considerably more dangerous things than this in his time. "The Keep has a service entrance on the eastern wall — used for deliveries, poorly guarded on account of nobody expecting trouble to arrive with the vegetables. I could, I think, make our approach through it rather less noticeable than it would otherwise be."
+
+"How do you know that?" Long John asked, not for the first time in recent memory, and not, by now, expecting a satisfying answer.
+
+"Old habits," said Thistlewood, which everyone had, by this point, simply learned to accept as the entirety of the explanation they were going to get.
+
+---
+
+**[PLATE 2 — the infiltration beginning, the team sneaking toward the Keep using various skills, animals present and helping]**
+
+They went in at dusk, Thistlewood's service entrance proving exactly as poorly guarded as promised — a single bored gatekeeper, easily distracted by Brother Crumb's cheerful offer of what he described, with real conviction, as "the finest meat pie this side of Nottingham, freely given, no obligation whatsoever" — and were inside the outer walls within the quarter hour, considerably faster than any of their previous efforts had managed against considerably less organized opposition.
+
+*"Left corridor's clear,"* Grimalkin reported, low, to the other two, from his customary position on Marian's shoulders. *"Two guards, right corridor, neither one paying proper attention. Sloppy work, if you ask me."*
+
+Marian couldn't have told anyone what he'd actually said, but she'd learned, by now, to trust the particular confident stillness that settled over him when a path was genuinely clear, and led them left without hesitation.
+
+"I do enjoy," Will whispered, watching her move with total, unexplained certainty, "not asking questions I already suspect I won't like the answers to."
+
+"Wise man," Marian whispered back, without slowing down.
+
+---
+
+*(new text page)*
+
+Pip moved ahead of the group with the quiet, practiced confidence of someone who had clearly done considerably more of this than her usual quiet-boy demeanor let on, checking corners, testing doors, gesturing the others forward with small, economical signals that even Will — who questioned nearly everything on principle — found himself following without argument.
+
+"She's good at this," Long John murmured, admiringly.
+
+"She's good at a great many things," Marian said, "that nobody's quite gotten around to asking her about properly. I'd start there, if I were you, once all this is finished."
+
+Long John, sensing there was considerably more to that sentence than he was currently equipped to unpack, wisely let it lie.
+
+---
+
+**[PLATE 3 — a complication: more guards than expected, an alarm nearly raised, the team improvising through it]**
+
+The complication, when it arrived, took the shape of a patrol considerably larger than Thistlewood's information had accounted for — six men rounding a corner at precisely the wrong moment, close enough that retreat wasn't an option and concealment wasn't especially likely either.
+
+"Options," Marian breathed, already calculating.
+
+"I have one," said Brother Crumb, and before anyone could ask what it was, hurled the remainder of his pie collection directly into the patrol's path with the specific, devastating accuracy of a man who had clearly practiced this exact maneuver more than he'd ever previously admitted to.
+
+The resulting chaos — six trained soldiers suddenly slipping on spilled gravy in a dim corridor — bought them precisely the window they needed.
+
+---
+
+*(new text page)*
+
+*"That was inspired,"* Barley said, with real admiration, watching the guards attempt and largely fail to regain their footing.
+
+*"That was desperate,"* Grimalkin corrected.
+
+*"Desperate things can still be inspired."*
+
+*"I suppose,"* Grimalkin allowed, "*it rather depends on whether it works.*"
+
+It worked. By the time the patrol had sorted itself back upright, the team was already three corridors further in, considerably ahead of any pursuit that might eventually think to organize itself.
+
+"I owe you a considerable debt of gratitude," Will told Crumb, with real feeling. "And possibly a new pie."
+
+"Several new pies," Crumb corrected. "I was rather attached to those."
+
+---
+
+**[PLATE 4 — finding Robin's cell, the reunion moment]**
+
+They found the cell exactly where Thistlewood's information had promised, Pip making short, quiet work of the lock with tools Marian had, by now, learned not to ask too many questions about, and the door swung open to reveal Robin blinking up at them with an expression that took a full three seconds to properly resolve from confusion into disbelief.
+
+"You're—" he started.
+
+"Considerably later than we'd have liked," Marian said, already crossing to help him up, "but yes. Here. All of us."
+
+"*All* of you?" Robin looked past her at the assembled group — Will already checking his sleeve despite the circumstances, Long John filling most of the available doorway, Thistlewood and Pip both present and entirely unbothered by the danger of the situation. "That seems like a great many people to risk for one moderately competent archer."
+
+"Nobody said moderately competent," said Will. "We came for considerably less than that."
+
+---
+
+*(new text page)*
+
+"I missed all of you rather a lot, for what it's worth," Robin said, allowing himself, for just a moment, the particular relief of a man who had genuinely not been certain this outcome was coming.
+
+"We missed you too," Marian said, simply, and there was something in the way she said it — steady, warm, entirely without her usual dry edge — that Robin noticed and filed away without quite having the presence of mind, in the moment, to examine it properly. "Now. Can you walk? Because we'd rather discuss the reunion properly once we're considerably further from this building."
+
+"I can walk," Robin confirmed, already testing his legs. "Where's the exit strategy?"
+
+"Working on it," said Marian, which was, as exit strategies went, not the most reassuring answer available, but was, by now, one they'd all learned to trust regardless.
+
+---
+
+**[PLATE 5 — the escape, one more obstacle, working together to get clear]**
+
+The escape proved rather more eventful than the infiltration had been, the alarm finally raised somewhere behind them as they reached the outer wall, guards mobilizing with the particular urgency of men who had just discovered their most valuable prisoner considerably less imprisoned than expected.
+
+"Go, go, *go*—" Marian was already moving, Robin between her and Long John, the rest of the team falling into a defensive formation that had, by now, become almost second nature.
+
+Thistlewood, bringing up the rear with his staff in hand, glanced back once at the pursuing guards, and a heavy gate swung shut behind them a beat later — a stroke of ordinary good fortune, the kind they'd all long since stopped questioning too closely — buying them precisely the distance they needed.
+
+"That's the last of them, I think," Long John called back, already moving again.
+
+---
+
+*(new text page)*
+
+They didn't stop running until Nottingham's walls had shrunk to something small and distant behind them, and even then it was less a decision to stop than a collective, breathless realization that their bodies had simply run out of road to give.
+
+Robin, doubled over and gasping, looked up at the six people who'd risked considerably more than a moderately competent archer was worth to come get him, and found himself, for a moment, entirely without words adequate to the occasion.
+
+"Thank you," he managed, finally. "All of you. I don't — I genuinely don't know how to properly—"
+
+"Don't," said Marian, gently. "Not yet. Save it for when we're somewhere that isn't still technically within shouting distance of the Sheriff's walls."
+
+---
+
+**[PLATE 6 — closing: the team regrouping at a safe distance, relief mixed with the knowledge that nothing's actually resolved]**
+
+They made camp well clear of Nottingham that night, the particular exhausted, relieved quiet of people who had accomplished something genuinely difficult settling over the group like a blanket nobody quite had the energy to properly appreciate yet.
+
+"We got him back," Will said, eventually, into the settling dark. "That's — that's rather more than I let myself hope for, if I'm honest."
+
+"We got him back," Marian agreed. "Vane still knows our faces. Blackwood's still out there, considerably less pleased with us than before. Crane's still asking his questions." She looked around the fire at all of them — tired, whole, together — and allowed herself, for the first time in days, something that might almost have been called peace. "But we got him back. Tonight, that's enough. Tomorrow, we'll worry about the rest of it."
+
+Robin, safe and exhausted and surrounded by the people who'd come for him, found he couldn't quite bring himself to argue with that.
