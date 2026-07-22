@@ -1,0 +1,136 @@
+# Story 6: A Goat of Some Distinction
+## Part One: Missing, Presumed Grazing
+
+*(Working titles — happy to change either. A lighter, breather story after Story 5's epic.)*
+
+---
+
+**[PLATE 1 — the gang at a market day near a neighboring village's Harvest Festival grounds, Gideon present, festival bustle in the background]**
+
+They'd come to the market only for rope and salt, which was, in retrospect, a fairly modest ambition for a day that ended up costing them rather more than either item was actually worth.
+
+The neighboring village had, unfortunately, chosen that same week for its Harvest Festival — stalls of prize vegetables, apple carts, the particular abundant chaos of a town determined to celebrate a good year loudly enough that the bad ones in living memory might finally take the hint and leave. Gideon, trailing the group with his usual unhurried dignity, took one long, assessing look at the festival's produce stalls and arrived, visibly, at a decision none of them were consulted on.
+
+"Don't," Marian said, already too late, watching him drift toward a cart of prize cabbages with the calm purpose of a goat who had never once in his life needed permission for anything.
+
+*"He's going to regret that,"* Grimalkin observed, from his usual perch on Marian's shoulders, watching Gideon go with the particular satisfaction of a cat anticipating someone else's trouble.
+
+*"I don't think he's going to regret it even slightly,"* said Barley, trotting along beside them, delighted by the sheer scale of the produce on display. *"Look at those cabbages. I'd regret leaving too."*
+
+---
+
+*(new text page)*
+
+By the time they'd finished their actual business — rope, salt, a brief and unsuccessful negotiation with a rope merchant who considered his prices a matter of personal honor — Gideon had vanished entirely into the festival crowd, and a headcount that ought to have taken no time at all took rather longer than any of them were comfortable with.
+
+"He was right there," Will said, gesturing at a patch of empty ground that offered no further information whatsoever.
+
+"He's a goat, Will. He doesn't stay right there. That's rather the defining feature of goats."
+
+"You could be more helpful about this."
+
+"I could," Marian agreed, "but I'm currently rather busy being pig-in-a-poke worried, so you'll have to make do."
+
+*"They're panicking,"* Grimalkin noted, with the detached interest of a creature entirely unbothered by the crisis at hand. *"Rather sweetly, actually. He's a goat. He'll turn up wherever the food is thickest."*
+
+*"That's not comforting, it's just true,"* said Barley. *"Both things at once, though. I like when that happens."*
+
+---
+
+**[PLATE 2 — the search beginning in earnest, the cant-teasing starting as a stress-relief joke among the gang]**
+
+They split up to search the crowd, which was, Robin reflected, considerably harder than it sounded given the festival's determination to fill every available inch of the village square with people, produce, and at least one unattended pie stall he made a private note to revisit later.
+
+"Any luck?" he called to Long John, arriving back at their meeting point empty-handed.
+
+"Not a hound's-tooth of it," Long John said, grim.
+
+Robin blinked. "A hound's what?"
+
+"*Truth*, Robin," said Will, Marian, and Long John, in the exact same ragged unison the camp had perfected over the better part of a year, though today it came with a strange new energy behind it — less exasperated correction, more something that looked, if Robin had been paying properly close attention, almost like enjoyment.
+
+---
+
+*(new text page)*
+
+"You know," Marian said, thoughtfully, to no one in particular, "I don't believe we've properly checked the miller's-thumb of it yet."
+
+"The miller's what?"
+
+"*Dumb* thing to have lost a goat at a festival, Robin," she said, entirely straight-faced. "Keep up."
+
+Will, catching the game with visible delight, jumped in without missing a beat. "We ought to ask around before we're properly gallows-tree about the whole business."
+
+"*Free*," Long John translated, before Robin could even ask, grinning now in a way he generally reserved for considerably less stressful occasions.
+
+"Is everyone simply going to keep doing this," Robin asked, "while my goat is missing?"
+
+*"They are absolutely going to keep doing this,"* Grimalkin observed, tail flicking with real, undisguised amusement. *"I'd almost feel sorry for him, if it weren't so consistently funny."*
+
+*"I don't feel sorry for him at all,"* said Barley, cheerfully. *"I feel sorry for the goat. He's missing all of this."*
+
+---
+
+**[PLATE 3 — the search continuing, more cant deployed with increasing enthusiasm, a passing local unwittingly joining in]**
+
+"He's not *your* goat exactly," Brother Crumb pointed out, arriving with a meat pie he'd acquired through means nobody felt inclined to question during an active crisis. "He's rather more his own goat, in my experience. But I take your point. We should hurry, before he does something properly beggar's-cloak."
+
+"A *joke*," Robin said, before anyone could translate it for him, with the flat exhaustion of a man who had, against his own better judgment, begun picking up the pattern faster than he wanted to admit. "You're all doing this on purpose."
+
+"We are absolutely doing this on purpose," Marian confirmed, cheerfully.
+
+A passing stallholder, overhearing the exchange and mistaking it for simply how educated people spoke these days, added helpfully: "Sounds like you've got yourselves a proper cooper's-barrel of a problem." Marian gave the woman a look of such genuine, delighted gratitude that the stallholder looked faintly startled by it.
+
+*"Even the strangers are joining in now,"* Grimalkin said, with the particular relish of a cat watching a joke grow well beyond its original scope. *"This is easily the best afternoon I've had in weeks."*
+
+*"I like her,"* Barley decided, of the stallholder, with total and immediate sincerity. *"She seems nice. Do you think she has pie."*
+
+---
+
+*(new text page)*
+
+"That's *quarrel*, in case nobody explains it to you," the stallholder added, to Robin specifically, with the particular kindness of a stranger who had correctly identified the one person in the group actually struggling.
+
+"Thank you," Robin said, with real, weary sincerity. "You're the first helpful person I've spoken to all afternoon."
+
+"Don't encourage him," Will said. "He's meant to suffer through this properly, same as the rest of us did learning it."
+
+"I never had anyone deliberately teaching me nonsense on top of it," Robin said.
+
+"No," Marian agreed, entirely too pleased with herself. "That part's new. Consider it a professional courtesy."
+
+---
+
+**[PLATE 4 — a lead emerges: word of a goat entered in the neighboring village's livestock competition]**
+
+It was Wat and Hob, arriving at a run with the particular breathless energy of boys who had genuinely useful information and intended to be properly credited for it, who finally broke the search open.
+
+"There's a goat," Wat announced, "entered in the Harvest Festival's livestock judging. Big one. Grey. Reeve Cobb's going around telling everyone it's the finest entry he's seen in years."
+
+"That's not possible," Robin said. "Gideon's never been *judged* anything in his life."
+
+"Cobb's saying it *found* him," Hob added. "Wandering loose near the produce stalls. Assumed he was a late entry somebody forgot to register properly, so he registered him himself. Ribbon and everything."
+
+Marian closed her eyes briefly, the particular expression of a woman recognizing, with real clarity, exactly how her afternoon was about to proceed.
+
+*"A ribbon,"* Grimalkin repeated, savoring it. *"He has a ribbon now. I don't think I will ever recover from how insufferable that's about to make him."*
+
+*"I think it's wonderful,"* said Barley, with real, uncomplicated joy. *"He won something! I've never won anything. Do you think they'd give me a ribbon too, if I asked nicely?"*
+
+*"No,"* said Grimalkin.
+
+*"Worth asking, though."*
+
+---
+
+*(new text page)*
+
+"We should retrieve him properly," Robin said, already moving toward the festival grounds. "Explain the mix-up. This shouldn't take terribly long."
+
+"It's Gideon, Robin," Marian said, following, already recalculating the shape of the problem with her usual brisk efficiency. "Currently receiving, by every account, the most attention and admiration of his entire life. I would not describe *retrieving him properly* as the likely outcome of this afternoon."
+
+"She's not wrong," said Will, checking his sleeve with the air of a man bracing for a scene. "He's going to be insufferable about this for weeks."
+
+Somewhere ahead of them, faint but unmistakable, a voice that could only belong to an enthusiastically self-important festival official could be heard announcing, with real pride, the arrival of "an entry of quite exceptional distinction."
+
+Robin, despite everything, felt a small, sinking premonition that Marian was, once again, entirely correct.

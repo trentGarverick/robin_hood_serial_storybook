@@ -169,6 +169,12 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 - **Ch20 (Story 5):** the predicted Sheriff connection materializes — Vane proactively sought out Captain Blackwood's operation, offering detailed physical/behavioral descriptions of all five crew members in exchange for a share in their capture. His motivation is explicitly personal, not strategic ("They robbed me in my own home... I call it a debt owed"). Blackwood uses his information but treats him with cold professional detachment, not as an ally. Nearly recognized the crew directly while eavesdropping (a genuinely tense near-miss, given he's the only person in Blackwood's operation who could actually identify them by sight). Practical consequence: **the crew's physical descriptions and habits are now known to a highly competent, professional adversary** — their previous advantage (anonymity) is gone as of this chapter.
 - **CAPTURED/RESOLVED (Ch25):** present at Ashcombe's defense (Blackwood's retaliatory strike), hanging back from the actual fighting as always. Marian disarms and captures him personally — "a debt finally being properly settled." Ellen suggests, and the crew agrees, to hand him over to the Sheriff himself as punishment for his failure, rather than dealing with him themselves — a fitting, non-violent close to his arc. **This resolves Vane's thread** — first genuinely-antagonist thread in the book to reach a clean conclusion (contrast Blackwood, who retreats but isn't defeated, and remains ongoing).
 
+### Reeve Aldous Cobb (Story 6 — "A Goat of Some Distinction")
+- **Gender:** male
+- **Role:** the fussy, self-important organizer of a neighboring village's Harvest Festival livestock judging. Found Gideon wandering loose near the produce stalls and, assuming he was a late/forgotten entry, registered him himself — ribbon and all — without checking for an owner. The comic "overeager organizer" figure for this breather story, per the user's plan.
+- **Personality:** enthusiastic, proud of his festival to a fault, genuinely delighted by what he believes is "an entry of quite exceptional distinction." Not malicious — just overly invested and a little careless with paperwork.
+- **Status:** named on-page (Ch27) but not yet physically appeared — heard only at a distance, announcing Gideon's arrival with real pride. Expected to appear properly in Part Two.
+
 ---
 
 ## Open questions to lock before drafting begins

@@ -112,6 +112,11 @@
           "kind": "a man collecting stories, patiently",
           "img": "../JOSIAHCRANE_ref_bg_01.png",
           "blurb": "Church-sent, investigating some rather colorful rumors out of Sherwood. Doesn't seem especially interested in whether the stories are true — only in what might be hiding underneath them."
+        },
+        {
+          "name": "Reeve Aldous Cobb",
+          "kind": "a man extremely proud of his Harvest Festival",
+          "blurb": "Organizes the neighboring village's livestock judging with tremendous enthusiasm and, on at least one recent occasion, insufficient attention to paperwork."
         }
       ]
     },
@@ -152,6 +157,11 @@
           "name": "Ashcombe",
           "kind": "a town with a new, unwelcome tax burden",
           "blurb": "The Sheriff's own deputies have been collecting there directly — no middleman to blame this time. Word of the Weavers' rescue reached them, which is not nothing."
+        },
+        {
+          "name": "The Sheriff's Keep",
+          "kind": "restrained, composed, and not a place you want an invitation to",
+          "blurb": "Quiet stone halls that don't need banners or gilding to make their point. A few unlucky guests have found the exits considerably harder to locate than the entrance."
         }
       ]
     },
@@ -220,6 +230,21 @@
           "name": "Widow's mite",
           "kind": "means \u201cfright\u201d",
           "blurb": "As in: a right widow's-mite of an afternoon."
+        },
+        {
+          "name": "Miller's thumb",
+          "kind": "means \u201cdumb\u201d (foolish)",
+          "blurb": "As in: that was a proper miller's-thumb thing to have done."
+        },
+        {
+          "name": "Gallows tree",
+          "kind": "means \u201cfree\u201d",
+          "blurb": "As in: best hurry, before this gets properly gallows-tree of a mess."
+        },
+        {
+          "name": "Cooper's barrel",
+          "kind": "means \u201cquarrel\u201d (a fight or argument)",
+          "blurb": "As in: sounds like you've got yourselves a proper cooper's-barrel of a problem. (Said by a total stranger, entirely unprompted, and gratefully received.)"
         }
       ]
     }
