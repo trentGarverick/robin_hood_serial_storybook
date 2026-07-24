@@ -174,6 +174,13 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 - **Role:** the fussy, self-important organizer of a neighboring village's Harvest Festival livestock judging. Found Gideon wandering loose near the produce stalls and, assuming he was a late/forgotten entry, registered him himself — ribbon and all — without checking for an owner. The comic "overeager organizer" figure for this breather story, per the user's plan.
 - **Personality:** enthusiastic, proud of his festival to a fault, genuinely delighted by what he believes is "an entry of quite exceptional distinction." Not malicious — just overly invested and a little careless with paperwork.
 - **Status:** named on-page (Ch27) but not yet physically appeared — heard only at a distance, announcing Gideon's arrival with real pride. Expected to appear properly in Part Two.
+- **UPDATE (Ch28):** physically appeared — round, cheerful, genuinely distressed at the idea of losing his "finest entry in a decade." Resistance is a mix of real pride, procedural stalling ("there's a *process*... there are *forms*"), and simply being slow to act. Not malicious, just an obstacle. Reveals the judging concludes the next morning and entries can't be withdrawn mid-competition — the actual plot complication driving Part Three.
+
+### Widow Tillet (Story 6 — "A Goat of Some Distinction")
+- **Gender:** female
+- **Role:** the comic rival — an eleven-time consecutive champion of the Harvest Festival's goat category (with her goat **Bartholomew**), directly threatened by Gideon's sudden, effortless popularity. Actively lobbies Cobb against releasing Gideon before judging concludes.
+- **Personality:** formidable, flatly hostile at first ("So you say," in the tone of a woman who did not, in fact, say), softens over the story per the original plan. Gets swept up in the group's nonsense-cant game without understanding it's fake, accidentally inventing a real-pattern-following term ("kettle's spout" = drought) in the process — a fun, humanizing beat.
+- **Status:** physically appeared Ch28. Full arc (rivalry → resolution) expected to continue through Part Three.
 
 ---
 

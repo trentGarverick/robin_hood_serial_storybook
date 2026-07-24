@@ -116,7 +116,14 @@
         {
           "name": "Reeve Aldous Cobb",
           "kind": "a man extremely proud of his Harvest Festival",
+          "img": "../ALDOUSCOBB_ref_bg_01.png",
           "blurb": "Organizes the neighboring village's livestock judging with tremendous enthusiasm and, on at least one recent occasion, insufficient attention to paperwork."
+        },
+        {
+          "name": "Widow Tillet",
+          "kind": "an eleven-time champion, and intends to make it twelve",
+          "img": "../WIDOWTILLET_ref_bg_01.png",
+          "blurb": "Her goat Bartholomew has won Best in Show every year anyone can remember. She has strong opinions about newcomers, and stronger opinions about keeping her streak."
         }
       ]
     },
