@@ -180,7 +180,7 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 - **Gender:** female
 - **Role:** the comic rival — an eleven-time consecutive champion of the Harvest Festival's goat category (with her goat **Bartholomew**), directly threatened by Gideon's sudden, effortless popularity. Actively lobbies Cobb against releasing Gideon before judging concludes.
 - **Personality:** formidable, flatly hostile at first ("So you say," in the tone of a woman who did not, in fact, say), softens over the story per the original plan. Gets swept up in the group's nonsense-cant game without understanding it's fake, accidentally inventing a real-pattern-following term ("kettle's spout" = drought) in the process — a fun, humanizing beat.
-- **Status:** physically appeared Ch28. Full arc (rivalry → resolution) expected to continue through Part Three.
+- **Status:** physically appeared Ch28. Full arc (rivalry → resolution) expected to continue through Part Three. **RESOLVED (Ch29):** the judging ends in a tie/joint championship — no loser, matching the story's low-stakes tone. Her hostility softens after overhearing Robin speak to Gideon with real affection ("You're part of this whole ridiculous family") — reveals she's a widow who's lost most of her family, and Bartholomew is "rather all I've got left that greets me properly of a morning." Her fierce competitiveness was rooted in fear of losing that connection, not simple pettiness. Ends on genuine warmth, not just polite truce. Single-story character — no plans to recur, not precluded either.
 
 ---
 
