@@ -121,8 +121,9 @@ Individual chapters can introduce local, self-contained threats (a corrupt local
 
 ### Ferret Tam
 - **Gender:** male
-- **Role:** the crew's fence/black-market contact — moves stolen goods, recurring
+- **Role:** originally planned as the crew's fence/black-market contact, but this had never been realized on-page — his only prior appearance was as Will's antagonistic creditor (Ch3). **Story 7 ("The Ferret's Gambit") is built specifically to finally realize this role.**
 - **Personality:** morally flexible, not especially competent himself, but somehow it always works out — fitting the book's overall "lucky bumblers" tone rather than being a slick criminal mastermind type. Comic in his own right; his deals often almost go wrong in entertaining ways.
+- **Ch30 development:** Crane's investigation identifies him as a known associate of the crew (likely via Vane's earlier detailed profiling to Blackwood, Ch20). Tam refuses to give the crew up despite pressure, at real personal risk — sends a warning via messenger rather than staying silent and hoping. Will's still-unpaid debt to him (from Ch3, never resolved, left deliberately outstanding per the story bible's default) becomes the emotional throughline — Will explicitly resolves not to let Tam take this risk "and then discover I'm still the same man who ran from the first debt in the first place." Crew mobilizes to protect him. **Not yet physically on-page as of Ch30** — represented only through his messenger.
 
 ### The Hale family (Agnes & Wat)
 - **Introduced:** Ch1 (Part One) — the family whose goods are seized by the tax man, sparking Robin's first (botched) intervention.

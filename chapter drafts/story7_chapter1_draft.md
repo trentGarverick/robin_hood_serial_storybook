@@ -1,0 +1,80 @@
+# Story 7: The Ferret's Gambit
+## Part One: An Old Debt, Newly Urgent
+
+*(Working titles — happy to change either.)*
+
+---
+
+**[PLATE 1 — camp life, Will uncharacteristically preoccupied and quiet, others noticing]**
+
+Will had been unusually quiet for the better part of two days, which was, by itself, enough of a departure from his ordinary self that the rest of the camp had begun exchanging the particular concerned glances people reserve for a friend behaving strangely without yet knowing why.
+
+"You've barely mentioned your sleeve since yesterday morning," Long John observed, not entirely joking. "Are you unwell?"
+
+"I'm perfectly well," Will said, in the flat tone of a man who was, demonstrably, not.
+
+Marian, watching him turn a coin over and over in one hand without seeming to notice he was doing it, set down her own work. "What's actually wrong, Will?"
+
+---
+
+*(new text page)*
+
+"I've been thinking about Ferret Tam," Will admitted, finally, with the particular reluctance of a man confessing something he'd rather have kept private a while longer. "I never actually settled that debt, you understand. We simply — stopped discussing it, once matters became rather more urgent than a card game's losses. But I never paid him, and I never intend to pretend otherwise to myself, whatever excuse the rest of you might extend me."
+
+"That was years ago," Robin said. "Surely he's written it off by now."
+
+"Men like Tam don't write things off," Will said. "They simply wait for a more convenient moment to collect. I'd rather thought I had more time before that moment arrived."
+
+---
+
+**[PLATE 2 — a messenger arriving with an urgent warning from Ferret Tam himself]**
+
+The messenger who found them that afternoon was nothing like the usual runners of bad news — a wiry, nervous young man who introduced himself only as working for "a man who prefers not to be named on open roads," and delivered his message with the particular haste of someone paid well to be quick and forgettable both.
+
+"Ferret Tam sends word," he said, glancing over one shoulder as though the trees themselves might be listening. "Says there's a man asking questions about him. Church fellow. Quiet sort, doesn't raise his voice, doesn't need to. Been round to three of Tam's usual contacts already, asking about his dealings, and about anyone he's done business with lately who might be worth knowing more about."
+
+Will went very still. "Crane."
+
+---
+
+*(new text page)*
+
+"Tam hasn't told him anything," the messenger continued. "Says to make that clear, particular. Says he's had considerably better offers to talk than whatever this Crane fellow's offering, and he's turned all of them down too, on principle, whatever that's worth to you lot." He hesitated, weighing something. "Says he expects that loyalty to cost him rather more than principle usually does, though, and he'd take it kindly if you remembered that, whatever else you decide to do about it."
+
+"He's protecting us," Marian said, slowly, working through the shape of it. "A man we've never once treated as anything but an inconvenience, and he's protecting us anyway."
+
+"That does rather change the accounting," Brother Crumb said, quietly.
+
+---
+
+**[PLATE 3 — the crew processing the news, moral weight of the situation settling in]**
+
+"We can't simply leave him to it," Robin said, once the messenger had gone, his expression settling into the particular resolve that had, by now, become familiar to all of them. "Whatever we've thought of him before. He's chosen not to sell us out, at real cost to himself. That deserves an answer."
+
+"It's not that simple," Marian said, though there was no real argument in her tone, only the careful weighing of a woman already building a plan. "We don't know what Crane actually intends. If it's just questions, Tam can likely weather it on his own — men like him are practiced at giving nothing away. If it's more than questions—"
+
+"Then he'll need considerably more help than a messenger's warning can arrange for him," Long John finished, grim.
+
+---
+
+*(new text page)*
+
+Will, who had said nothing through most of this, finally spoke, and there was something in his voice that none of them had quite heard from him before — none of the usual vanity, none of the careless charm, simply plain, unguarded resolve.
+
+"I owe that man money I never paid," he said. "I've owed it long enough that I stopped thinking of it as a debt and started thinking of it as an old embarrassment I'd successfully outrun. I don't intend to let him take a risk on my account and then discover I'm still the same man who ran from the first debt in the first place." He looked around at the others. "I'm going to help him. I'd like the rest of you with me, but I'll go regardless, if it comes to that."
+
+"It won't come to that," Marian said, already moving. "None of us leave anyone to it alone. That's rather the whole point of all this."
+
+---
+
+**[PLATE 4 — the crew organizing to help, resolve settling in, closing on forward momentum]**
+
+They left within the hour, the particular efficient urgency of people who had done this kind of thing enough times now to know precisely which questions mattered and which could wait for the road.
+
+"What do we actually know," Marian asked, setting the pace, "about where Tam operates from, these days?"
+
+"Less than I'd like," Will admitted. "He's moved twice since I last dealt with him directly, on account of not wanting to be predictable. I know roughly the district. I don't know the exact building."
+
+"Then we start with the district," Marian said, "and trust the rest to sort itself out once we're closer. It generally does."
+
+Robin, walking beside her, allowed himself a small, private thought about how thoroughly their definition of *generally* had shifted this past year — from wild hope to something considerably closer to earned confidence — and found, for once, that the thought didn't unsettle him at all.
