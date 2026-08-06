@@ -4,22 +4,29 @@ Character identity lives in `characters.md` (authoritative). This file covers pr
 
 ---
 
-## PATH TO BOOK 1's ENDING (decided post-Ch39 — read before planning any future story)
+## PATH TO BOOK 1's ENDING (decided post-Ch39, Story 10 specifics locked Ch43 — read before planning any future story)
 
-**Explicit user decision: the book ends after two more stories (Story 9 and Story 10), landing at a point substantial enough to feel like a real ending while leaving a clear, deliberate opening for a second book.** This is the current governing plan for everything from here forward — check it before proposing new stories or story directions.
+**Explicit user decision: the book ends after Story 9 (complete) and Story 10 (in progress), landing at a point substantial enough to feel like a real ending while leaving a clear, deliberate opening for a second book.** This is the current governing plan for everything from here forward — check it before proposing new stories or story directions.
+
+**Story 10 ("A Father's Reckoning") locked mechanism, decided before Ch43:**
+- **Robin's father is named Edmund of Loxby** (working name — not yet used on-page in the prose itself; he's referred to only by relation so far, will be named directly once he meets Robin, likely Part Two).
+- **The debt backstory**: Edmund incurred a significant debt **owed directly to the Sheriff of Nottingham personally** years ago. To protect Robin from being used as leverage, he tried to force Robin onto a "safe" path without explaining why — read as arbitrary control, they fought, Robin left. He then called in Thistlewood's own old gambling debt (established Ch16) to have Thistlewood protect Robin from a distance — the origin of the whole book's "improbable luck" pattern.
+- **The finale's trigger**: Captain Blackwood's deeper post-Ashcombe investigation into Robin uncovers the Loxby family connection; the Sheriff recognizes it as his own old debtor, giving him newly personal motivation (not just professional persistence) for this operation.
+- **Edmund's arrival**: learns via his own household that the Sheriff now knows, and rides to Sherwood unannounced to reach Robin before the Sheriff's men do — full urgency, no warning, arrives in-person.
+- See `characters.md`'s Edmund of Loxby entry for full detail — this is now locked continuity, not just a rough direction.
 
 **What gets resolved by book's end:**
-- **The debt & Robin's father's role** — the oldest mystery in the book (since Ch1), resolved in Story 10 (the finale). Robin's father may appear on-page for the first time.
-- **Will, Long John, and Brother Crumb learn the truth** about Thistlewood/Pip — planned for Story 9, a "found family fully united" beat.
-- **Robin & Marian get real romantic progress** — a genuine conversation and a kiss, planned for Story 9. **Explicitly NOT full closure/commitment — stops short of that on purpose, saved for book 2.**
-- **A genuine climactic confrontation** in Story 10 — **Blackwood** returns as promised ("more carefully next time," Ch25), now operating directly as an ally of the Sheriff. This is the book's final action/danger sequence.
+- **The debt & Robin's father's role** — the oldest mystery in the book (since Ch1), resolved in Story 10. Robin's father (Edmund) appears on-page.
+- **Will, Long John, and Brother Crumb learn the truth** about Thistlewood/Pip — **DONE, Story 9 (Ch41).**
+- **Robin & Marian get real romantic progress** — **DONE, Story 9 (Ch42)** — a genuine conversation and a kiss, deliberately stopping short of full commitment.
+- **A genuine climactic confrontation** in Story 10 — **Blackwood** returns as promised ("more carefully next time," Ch25), now operating directly as an ally of the Sheriff, personally motivated by the Loxby connection. This is the book's final action/danger sequence.
 
 **What deliberately stays unresolved, as Book 2 setup:**
 - **The Sheriff himself** — explicit user decision: he does NOT get a decisive confrontation or resolution in Book 1. He remains furious, at large, and clearly unfinished business. This is intended as Book 2's central conflict.
 - **Witchfinder Crane** — his fate after Ch39 (memory softened, diminished, status unclear) stays genuinely open. Deliberately NOT brought back for Story 10's finale, specifically so his return can be a live option for Book 2 rather than undercutting Ch39's closure by reusing him too soon.
 - Anything not explicitly listed above as "resolved" — treat as still open, available for Book 2.
 
-**Sequencing:** Story 9 should land before Story 10 — the "family united" and Robin/Marian beats work better with room to breathe before the finale's danger and revelations, not crammed into the same story. Story 10 is the true finale and should close with a deliberate "this isn't over" note pointing at the Sheriff, not a tidy bow.
+**Sequencing:** Story 9 is complete. Story 10 is the true finale (7 parts planned) and should close with a deliberate "this isn't over" note pointing at the Sheriff, not a tidy bow.
 
 ---
 
@@ -273,3 +280,7 @@ This renders in the TOC as a "THE TAX COLLECTOR'S GOLD" header with two indented
   - **New elements introduced:** none new — pure payoff of established threads.
   - **Ch42 / Part Three — "The Last Honest Thing":** **Story 9 ("The Whole Truth") is now complete.** Warm celebration scene first (Will's card-game joke lets Pip keep real dignity/agency rather than being reduced to "the secret"; Crumb's food-conjuring mystery deliberately left unexplained, kept separate from the magic). **Robin and Marian's kiss lands as a fully earned payoff of Part One's setup** — Marian explicitly echoes her own morning line back to Robin ("tired of filing things away for some safer day"). **Deliberately stops short of full commitment**: "Let's not get ahead of ourselves... The rest can wait for whenever it's actually ready to arrive" — exactly per the PATH TO BOOK 1's ENDING plan (real progress, not resolution, saved for Book 2). Ends with Marian's clear-eyed reminder that the Sheriff is still out there — plants Story 10's stakes without being heavy-handed, keeping this chapter's own ending warm.
   - **STORY 9 COMPLETE.** Total: 3 chapters (Ch40–42). `manifest.json`'s `comingSoon` flipped from `"chapter"` to `"story"`. Both of this story's goals achieved in full: **the entire core crew (Marian, Robin, Will, Long John, Crumb) now knows the truth about Thistlewood and Pip** — no one in the family remains uninformed, a thread closed after being open since Chapter 1; and **Robin & Marian have real, mutual, stated romantic progress** for the first time, deliberately incomplete. Per the PATH TO BOOK 1's ENDING plan, **Story 10 is now the final story of Book 1** — the debt/father reveal, Blackwood's return as the Sheriff's ally, and a deliberate "this isn't over" close, with the Sheriff himself remaining unresolved as Book 2's setup.
+
+- **Story 10: "A Father's Reckoning"** (chapters: ch43 drafted, 6 more planned — 7 parts total) — **THE FINAL STORY OF BOOK 1.** Full mechanism and backstory locked — see the PATH TO BOOK 1's ENDING section at the top of this document and `characters.md`'s Edmund of Loxby entry for complete detail. Rough 7-part map: (1) Blackwood uncovers the connection, Sheriff learns, Edmund learns and rides for Sherwood — **DONE, Ch43**; (2) Edmund reaches Robin, first contact, real tension; (3) the full truth comes out; (4) imperfect reconciliation begins; (5) the threat escalates, becomes concrete; (6) climactic confrontation — Blackwood's assault; (7) resolution — danger repelled, relationship in a real-but-imperfect place, Sheriff remains at large, deliberate "this isn't over" close.
+  - **Ch43 / Part One — "A Name Remembered":** Blackwood's methodical post-Ashcombe investigation into Robin uncovers the Loxby family history; the Sheriff recognizes the name as his own old debtor, shifting from professional interest to personal motivation — a real crack in his usually unreadable composure, a genuine character beat. In parallel, Edmund learns via his loyal steward that the Sheriff now knows, and decides to ride for Sherwood immediately, unannounced, to reach Robin first. **Edmund does not appear on-page named yet** — referred to only as "the man"/"Robin's father" throughout; working name Edmund locked for future chapters. Both clocks (Sheriff's forces preparing, Edmund riding) now run in parallel, creating real urgency for Part Two.
+  - **New elements introduced:** Edmund of Loxby (not yet named on-page — text-only in tracking docs, no `guide.json` entry yet per the established naming rule).
