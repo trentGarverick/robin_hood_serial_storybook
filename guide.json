@@ -12,6 +12,12 @@
           "blurb": "Earnest, well-meaning, and a genuinely terrible shot with a bow — which has, so far, worked out better for him than it has any right to. Estranged from his father, though he'd rather not talk about it."
         },
         {
+          "name": "Edmund of Loxby",
+          "kind": "a father who let too many years pass in silence",
+          "img": "../EDMUND_ref_bg_01.png",
+          "blurb": "Robin's father. The two of them haven't spoken in years, for reasons that go rather deeper than either of them ever found easy to explain."
+        },
+        {
           "name": "Long John Little",
           "kind": "a very large, very apologetic man",
           "img": "../LONGJOHNLITTLE_ref_bg_01.png",
