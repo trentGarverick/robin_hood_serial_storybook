@@ -628,10 +628,10 @@ function buildSpreads(){
   });
 
   // STAY-TUNED CLOSING PAGE: appended after the last chapter, driven by
-  // manifest.json's "comingSoon" field ("chapter" | "story" | omitted/"none").
+  // manifest.json's "comingSoon" field ("chapter" | "story" | "book" | omitted/"none").
   // Not part of any chapter (no .ci), so it's excluded from chapter numbering
   // the same way the cover is.
-  if(book.comingSoon === 'chapter' || book.comingSoon === 'story'){
+  if(book.comingSoon === 'chapter' || book.comingSoon === 'story' || book.comingSoon === 'book'){
     spreads.push({ type:'stayTuned', mode: book.comingSoon });
   }
 }
@@ -676,7 +676,9 @@ function render(i){
   }
   if(s.type === 'stayTuned'){
     pageEl.className = 'page stay-tuned-page';
-    const msg = s.mode === 'story'
+    const msg = s.mode === 'book'
+      ? "That's the end of Book One! Thank you for reading &mdash; Book Two is coming, someday."
+      : s.mode === 'story'
       ? 'Stay tuned for the next adventure, it is coming soon!'
       : 'Stay tuned for the next chapter, it is coming soon!';
     pageEl.innerHTML = `

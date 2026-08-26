@@ -4,29 +4,34 @@ Character identity lives in `characters.md` (authoritative). This file covers pr
 
 ---
 
-## PATH TO BOOK 1's ENDING (decided post-Ch39, Story 10 specifics locked Ch43 — read before planning any future story)
+## BOOK 1: COMPLETE (Ch1–Ch49, "A Father's Reckoning" Part Seven / Ch49 is the final chapter)
 
-**Explicit user decision: the book ends after Story 9 (complete) and Story 10 (in progress), landing at a point substantial enough to feel like a real ending while leaving a clear, deliberate opening for a second book.** This is the current governing plan for everything from here forward — check it before proposing new stories or story directions.
+**Book 1 of "Robin Hood and His Merry Messes" is finished as of Ch49.** Total: 10 complete stories, 49 chapters. Everything below this heading documents how the ending was planned and executed — kept for continuity reference and as the starting foundation for Book 2 planning, whenever that begins.
+
+**What Book 1 resolved in full:**
+- **The debt & Robin's father's role** — the oldest mystery in the book (since Ch1). Edmund of Loxby appeared on-page (Ch44), the full backstory was told (Ch45), and Robin and Edmund reached a real, honest, imperfect reconciliation. Edmund chose to stay with the found family going forward (Ch49).
+- **Will, Long John, and Brother Crumb learned the truth** about Thistlewood/Pip — Story 9 (Ch41). The entire core crew now shares full knowledge.
+- **Robin & Marian's relationship** — real, mutual, stated romantic progress (Ch40, Ch42) — deliberately incomplete, a Book 2 thread if picked up.
+- **Captain Blackwood's arc** — fully, permanently resolved (Ch48). A genuine crisis of conscience, a costly personal choice to stand down. Not a Book 2 requirement.
+
+**What Book 1 deliberately left open, as Book 2 setup:**
+- **The Sheriff of Nottingham** — never personally confronted or resolved. The book's final chapter ends on him directly, vowing to handle the matter himself: "It was never going to be the ending. Merely a very brief, very costly delay." This is Book 2's central conflict, explicitly.
+- **Witchfinder Josiah Crane** — fate after Ch39 (memory softened, status unclear) never revisited. A live option for Book 2.
+- **The Robin/Marian relationship's ultimate resolution** — real progress made, not concluded.
+- Anything else not explicitly listed as resolved above.
+
+**For whoever picks this up to plan Book 2:** the book's very last image is the Sheriff at his window, resolved to act personally — that's the natural entry point. Blackwood's replaced/absent from his service; Crane's whereabouts are unknown; the found family is more whole and more exposed (as a known unit, publicly reconciled) than it's ever been. Start there.
+
+---
+
+### Original planning record (kept for reference — decisions made pre-Ch43 through Ch48)
 
 **Story 10 ("A Father's Reckoning") locked mechanism, decided before Ch43:**
 - **Robin's father is named Edmund of Loxby** (working name — not yet used on-page in the prose itself; he's referred to only by relation so far, will be named directly once he meets Robin, likely Part Two).
 - **The debt backstory**: Edmund incurred a significant debt **owed directly to the Sheriff of Nottingham personally** years ago. To protect Robin from being used as leverage, he tried to force Robin onto a "safe" path without explaining why — read as arbitrary control, they fought, Robin left. He then called in Thistlewood's own old gambling debt (established Ch16) to have Thistlewood protect Robin from a distance — the origin of the whole book's "improbable luck" pattern.
 - **The finale's trigger**: Captain Blackwood's deeper post-Ashcombe investigation into Robin uncovers the Loxby family connection; the Sheriff recognizes it as his own old debtor, giving him newly personal motivation (not just professional persistence) for this operation.
 - **Edmund's arrival**: learns via his own household that the Sheriff now knows, and rides to Sherwood unannounced to reach Robin before the Sheriff's men do — full urgency, no warning, arrives in-person.
-- See `characters.md`'s Edmund of Loxby entry for full detail — this is now locked continuity, not just a rough direction.
-
-**What gets resolved by book's end:**
-- **The debt & Robin's father's role** — the oldest mystery in the book (since Ch1), resolved in Story 10. Robin's father (Edmund) appears on-page.
-- **Will, Long John, and Brother Crumb learn the truth** about Thistlewood/Pip — **DONE, Story 9 (Ch41).**
-- **Robin & Marian get real romantic progress** — **DONE, Story 9 (Ch42)** — a genuine conversation and a kiss, deliberately stopping short of full commitment.
-- **A genuine climactic confrontation** in Story 10 — **Blackwood** returns as promised ("more carefully next time," Ch25), now operating directly as an ally of the Sheriff, personally motivated by the Loxby connection. This is the book's final action/danger sequence. **DONE, Ch48 — Blackwood's arc is now fully resolved.** She has a genuine crisis of conscience during the confrontation and makes a costly, personal choice to stand down and withdraw — not a tactical retreat like Ch25, but a real decision with real consequences (openly risking her position with the Sheriff). This closes her personal arc completely; distinct from the Sheriff, who deliberately remains unresolved. Whether she returns in Book 2 is undecided but not required.
-
-**What deliberately stays unresolved, as Book 2 setup:**
-- **The Sheriff himself** — explicit user decision: he does NOT get a decisive confrontation or resolution in Book 1. He remains furious, at large, and clearly unfinished business. This is intended as Book 2's central conflict.
-- **Witchfinder Crane** — his fate after Ch39 (memory softened, diminished, status unclear) stays genuinely open. Deliberately NOT brought back for Story 10's finale, specifically so his return can be a live option for Book 2 rather than undercutting Ch39's closure by reusing him too soon.
-- Anything not explicitly listed above as "resolved" — treat as still open, available for Book 2.
-
-**Sequencing:** Story 9 is complete. Story 10 is the true finale (7 parts planned) and should close with a deliberate "this isn't over" note pointing at the Sheriff, not a tidy bow.
+- See `characters.md`'s Edmund of Loxby entry for full detail.
 
 ---
 
@@ -294,3 +299,7 @@ This renders in the TOC as a "THE TAX COLLECTOR'S GOLD" header with two indented
   - **New elements introduced:** none new — pure escalation of established threads.
   - **Ch48 / Part Six — "A Line She Wouldn't Cross": THE FINALE'S MAJOR ACTION CLIMAX. Blackwood's arc reaches full, decisive closure.** She arrives with real improved tactics (learned from Ashcombe), and the battle genuinely turns against the crew before momentum shifts back — no easy win. **Edmund actively fights and proves himself** — "clumsy in places, but never once hesitant" — real growth without overselling it into sudden expertise. **Direct personal confrontation** between Blackwood and Robin/Edmund, exactly as planned: Edmund's direct appeal and Marian's callback to Blackwood's established honor (both drawing on Ch25's established groundwork, not new invention) trigger a genuine crisis of conscience. **Blackwood makes a costly, personal choice to stand down** — explicitly not a tactical retreat, a real decision with real consequences to her own position. Leaves on genuine mutual respect, not humiliation. **This closes her personal arc completely** — distinct from the Sheriff, who explicitly remains unresolved (Marian's closing line makes this explicit: "the Sheriff's still out there... it won't stop him from eventually sending someone else"). One part left: the finale's true resolution and the deliberate "this isn't over" close.
   - **New elements introduced:** none new — Blackwood's arc reaches full resolution using only established character material.
+  - **Ch49 / Part Seven — "What Comes Next": THE FINAL CHAPTER OF BOOK 1.** Every major character gets a genuine closing beat (Will's exaggerated heroics, Long John's fond correction, Pip and Thistlewood's quiet relief, Crumb's food). **Edmund chooses to stay with the found family** — real growth directly echoing his own established language from Ch46/Ch47, not a new decision invented from nothing. Robin's archery gag gets a quiet, non-comedic capstone — he minds the poor aim less than he used to, a subtle emotional marker for his whole arc. Marian and Robin's reflection scene serves as the book's actual thematic closing statement ("You know the whole truth now... that's rather everything"). **The book's final scene is a direct Sheriff POV** — calm, controlled, never explosive, consistent with his established character throughout — receiving word of Blackwood's failure and resolving to handle the matter personally. Closing line: "It was never going to be the ending. Merely a very brief, very costly delay." This is the deliberate Book 2 hook, landed exactly as planned.
+  - **New elements introduced:** none new.
+
+  - **STORY 10 COMPLETE. BOOK 1 COMPLETE.** Total for Story 10: 7 chapters (Ch43–49). Total for Book 1: 10 stories, 49 chapters. See the "BOOK 1: COMPLETE" section at the top of this document for the full closing record and Book 2 starting notes.
